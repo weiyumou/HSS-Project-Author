@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/favicon.ico">
+
+    <title>作者信息输入</title>
+
+    <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/custom.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="container">
+
+      	<div class="page-header">
+        	<h1>作者信息输入</h1>
+        	<p class="lead">请将作者信息输入于如下表格中。当您完成输入后，请点击“提交”。</p>
+      	</div>
+
+      	<div class="row">
+	      	<form class="form-horizontal">
+	      	
+	  			<div class="form-group">
+	  				<div class="col-xs-8">
+		  				<label class="radio-label-left">您的性别：</label>
+		    			<label class="radio-inline" style="padding-top: 0;">
+		      				<input type="radio" name="optradio" />男
+		    			</label>
+		    			<label class="radio-inline" style="padding-top: 0;">
+		      				<input type="radio" name="optradio" />女
+		    			</label>
+	    			</div>
+	    		</div>
+
+	    		<div class="form-group">
+	    			<div class="col-xs-8">
+		  				<label class="radio-label-left">您的年龄：</label>
+		    			<label class="radio-inline" style="padding-top: 0;">
+		      				<input type="radio" name="optradio" id="year1" />小于17岁
+		    			</label>
+		    			<label class="radio-inline" style="padding-top: 0;">
+		      				<input type="radio" name="optradio" />18-20岁
+		    			</label>
+		    			<label class="radio-inline" style="padding-top: 0;">
+		      				<input type="radio" name="optradio" />21岁以上
+		    			</label>
+	    			</div>
+	    		</div>
+
+	    		<div class="form-group">
+	    			<div class="col-xs-8">
+		  				<label style="margin-right:10px;" for="school">您的学校: </label>
+		    			<input type="text" class="form-control-inline" id="school"／>
+		    			<label style="margin-right:10px;" for="year">年级: </label>
+		    			<input type="text" class="form-control-inline" id="year" ／>
+		    		</div>
+	    		</div>
+
+	    		<div class="form-group">
+	    			<div class="col-xs-8">
+		  				<label style="margin-right:10px;" for="school">您的国籍: </label>
+		    			<input type="text" class="form-control-inline" id="school"／>
+		    		</div>
+	    		</div>
+
+	    		<div class="form-group">
+	    			<div class="col-xs-12">
+		  				<label class="radio-label-left">您出生的国家或地区：</label>
+		    			<label class="radio-inline" style="padding-top: 0;">
+		      				<input type="radio" name="optradio" id="year1" />新加坡
+		    			</label>
+		    			<label class="radio-inline" style="padding-top: 0;">
+		      				<input type="radio" name="optradio" />台湾
+		    			</label>
+		    			<label class="radio-inline" style="padding-top: 0;">
+		      				<input type="radio" name="optradio" />香港
+		    			</label>
+		    			<label class="radio-inline" style="padding-top: 0;">
+		      				<input type="radio" name="optradio" />中国
+		    			</label>
+		    			<label class="radio-inline" style="padding-top: 0;">
+		      				<input type="radio" name="optradio" />其他
+		    			</label>
+		    			<input type="text" class="form-control-inline" id="nationality-other"／>
+	    			</div>
+	    		</div>
+
+	    		<div class="form-group">
+	    			<div class="col-xs-12">
+		  				<label for="school">您以前有没有在台湾以外的国家或地区长住过（5年以上）？
+		  					有的话，请列出该国家或地区及居住时长（几年）： 
+		  				</label>
+		    			<input type="text" class="form-control" id="school"／>
+		    		</div>
+	    		</div>
+
+	    		<div class="form-group">
+	    			<div class="col-xs-12">
+		  				<label class="radio-label-left">您最早在家里接触的语言／方言是：</label>
+		    			<label class="radio-inline" style="padding-top: 0;">
+		      				<input type="radio" name="optradio" id="year1" />普通话／国语／华语
+		    			</label>
+		    			<label class="radio-inline" style="padding-top: 0;">
+		      				<input type="radio" name="optradio" />英语
+		    			</label>
+		    			<label class="radio-inline" style="padding-top: 0;">
+		      				<input type="radio" name="optradio" />台语／闽南话
+		    			</label>
+		    			<label class="radio-inline" style="padding-top: 0;">
+		      				<input type="radio" name="optradio" />客家话
+		    			</label>
+		    			<label class="radio-inline" style="padding-top: 0;">
+		      				<input type="radio" name="optradio" />其他
+		    			</label>
+		    			<input type="text" class="form-control-inline" id="language-other"／>
+	    			</div>
+	    		</div>
+
+	    		<div class="form-group">
+	    			<div class="col-xs-12">
+	    				<div class="panel panel-default">
+	    					<div class="panel-heading">
+	    						<label class="radio-label-left">您会什么语言或方言，水平怎么样?
+	    							如果以下没有您会的语言/方言，请在表格下面加行填写。</label>
+	    					</div>
+	    					<div class="panel-body">
+	    						<div class="panel panel-default">
+	    					<div class="panel-heading">普通话／国语／华语</div>
+	  						<div class="panel-body">
+		  						<ul class="nav nav-tabs">
+			    					<li class="active"><a data-toggle="tab" href="#chinese-listening">听</a></li>
+								  	<li><a data-toggle="tab" href="#chinese-speaking">说</a></li>
+								  	<li><a data-toggle="tab" href="#chinese-reading">读</a></li>
+								  	<li><a data-toggle="tab" href="#chinese-writing">写</a></li>
+								</ul>
+			    				<div class="tab-content">
+			    					<div id="chinese-listening" class="tab-pane fade in active">
+									    <label class="radio-inline" style="padding-top: 0;">
+		      								<input type="radio" name="optradio"/>完全不会
+		    							</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />会一点儿(比如一些词和简单的句子)
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />会一些(如日常对话或表达简单的想法)
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />较高水平 (接近母语，能顺畅表达想法)
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />母语水平
+						    			</label>
+									</div>
+									<div id="chinese-speaking" class="tab-pane fade">
+									    <label class="radio-inline" style="padding-top: 0;">
+		      								<input type="radio" name="optradio"/>完全不会
+		    							</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />会一点儿(比如一些词和简单的句子)
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />会一些(如日常对话或表达简单的想法)
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />较高水平 (接近母语，能顺畅表达想法)
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />母语水平
+						    			</label>
+								  	</div>
+								  	<div id="chinese-reading" class="tab-pane fade">
+									    <label class="radio-inline" style="padding-top: 0;">
+		      								<input type="radio" name="optradio"/>完全不会
+		    							</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />会一点儿(比如一些词和简单的句子)
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />会一些(如日常对话或表达简单的想法)
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />较高水平 (接近母语，能顺畅表达想法)
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />母语水平
+						    			</label>
+								  	</div>
+								  	<div id="chinese-writing" class="tab-pane fade">
+									    <label class="radio-inline" style="padding-top: 0;">
+		      								<input type="radio" name="optradio"/>完全不会
+		    							</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />会一点儿(比如一些词和简单的句子)
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />会一些(如日常对话或表达简单的想法)
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />较高水平 (接近母语，能顺畅表达想法)
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />母语水平
+						    			</label>
+								  	</div>
+								</div>
+								
+	    					</div>
+						</div>
+	    					</div>
+	    				</div>
+	    			</div>
+	    		</div>
+
+	    		<div class="form-group">
+	    			<div class="col-xs-12">
+	    				<div class="panel panel-default">
+	    					<div class="panel-heading">英语</div>
+	  						<div class="panel-body">
+		  						<ul class="nav nav-tabs">
+			    					<li class="active"><a data-toggle="tab" href="#english-listening">听</a></li>
+								  	<li><a data-toggle="tab" href="#englsih-speaking">说</a></li>
+								  	<li><a data-toggle="tab" href="#englsih-reading">读</a></li>
+								  	<li><a data-toggle="tab" href="#englsih-writing">写</a></li>
+								</ul>
+			    				<div class="tab-content">
+			    					<div id="englsih-listening" class="tab-pane fade in active">
+									    <label class="radio-inline" style="padding-top: 0;">
+		      								<input type="radio" name="optradio"/>完全不会
+		    							</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />会一点儿(比如一些词和简单的句子)
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />会一些(如日常对话或表达简单的想法)
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />较高水平 (接近母语，能顺畅表达想法)
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />母语水平
+						    			</label>
+									</div>
+									<div id="englsih-speaking" class="tab-pane fade">
+									    <label class="radio-inline" style="padding-top: 0;">
+		      								<input type="radio" name="optradio"/>完全不会
+		    							</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />会一点儿(比如一些词和简单的句子)
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />会一些(如日常对话或表达简单的想法)
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />较高水平 (接近母语，能顺畅表达想法)
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />母语水平
+						    			</label>
+								  	</div>
+								  	<div id="englsih-reading" class="tab-pane fade">
+									    <label class="radio-inline" style="padding-top: 0;">
+		      								<input type="radio" name="optradio"/>完全不会
+		    							</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />会一点儿(比如一些词和简单的句子)
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />会一些(如日常对话或表达简单的想法)
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />较高水平 (接近母语，能顺畅表达想法)
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />母语水平
+						    			</label>
+								  	</div>
+								  	<div id="englsih-writing" class="tab-pane fade">
+									    <label class="radio-inline" style="padding-top: 0;">
+		      								<input type="radio" name="optradio"/>完全不会
+		    							</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />会一点儿(比如一些词和简单的句子)
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />会一些(如日常对话或表达简单的想法)
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />较高水平 (接近母语，能顺畅表达想法)
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />母语水平
+						    			</label>
+								  	</div>
+								</div>
+	    					</div>
+						</div>
+					</div>
+	    		</div>
+	    		<div class="form-group">
+	    			<div class="col-xs-12">
+	    				<div class="panel panel-default">
+	    					<div class="panel-heading">台语／闽南话</div>
+	  						<div class="panel-body">
+		  						<ul class="nav nav-tabs">
+			    					<li class="active"><a data-toggle="tab" href="#taiwanese-listening">听</a></li>
+								  	<li><a data-toggle="tab" href="#taiwanese-speaking">说</a></li>
+								  	<li><a data-toggle="tab" href="#taiwanese-reading">读</a></li>
+								  	<li><a data-toggle="tab" href="#taiwanese-writing">写</a></li>
+								</ul>
+			    				<div class="tab-content">
+			    					<div id="taiwanese-listening" class="tab-pane fade in active">
+									    <label class="radio-inline" style="padding-top: 0;">
+		      								<input type="radio" name="optradio"/>完全不会
+		    							</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />会一点儿(比如一些词和简单的句子)
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />会一些(如日常对话或表达简单的想法)
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />较高水平 (接近母语，能顺畅表达想法)
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />母语水平
+						    			</label>
+									</div>
+									<div id="taiwanese-speaking" class="tab-pane fade">
+									    <label class="radio-inline" style="padding-top: 0;">
+		      								<input type="radio" name="optradio"/>完全不会
+		    							</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />会一点儿(比如一些词和简单的句子)
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />会一些(如日常对话或表达简单的想法)
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />较高水平 (接近母语，能顺畅表达想法)
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />母语水平
+						    			</label>
+								  	</div>
+								  	<div id="taiwanese-reading" class="tab-pane fade">
+									    <label class="radio-inline" style="padding-top: 0;">
+		      								<input type="radio" name="optradio"/>完全不会
+		    							</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />会一点儿(比如一些词和简单的句子)
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />会一些(如日常对话或表达简单的想法)
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />较高水平 (接近母语，能顺畅表达想法)
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />母语水平
+						    			</label>
+								  	</div>
+								  	<div id="taiwanese-writing" class="tab-pane fade">
+									    <label class="radio-inline" style="padding-top: 0;">
+		      								<input type="radio" name="optradio"/>完全不会
+		    							</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />会一点儿(比如一些词和简单的句子)
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />会一些(如日常对话或表达简单的想法)
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />较高水平 (接近母语，能顺畅表达想法)
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />母语水平
+						    			</label>
+								  	</div>
+								</div>
+	    					</div>
+						</div>
+					</div>
+	    		</div>
+	    		<div class="form-group">
+	    			<div class="col-xs-12">
+	    				<div class="panel panel-default">
+	    					<div class="panel-heading">客家话</div>
+	  						<div class="panel-body">
+		  						<ul class="nav nav-tabs">
+			    					<li class="active"><a data-toggle="tab" href="#kejia-listening">听</a></li>
+								  	<li><a data-toggle="tab" href="#kejia-speaking">说</a></li>
+								  	<li><a data-toggle="tab" href="#kejia-reading">读</a></li>
+								  	<li><a data-toggle="tab" href="#kejia-writing">写</a></li>
+								</ul>
+			    				<div class="tab-content">
+			    					<div id="kejia-listening" class="tab-pane fade in active">
+									    <label class="radio-inline" style="padding-top: 0;">
+		      								<input type="radio" name="optradio"/>完全不会
+		    							</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />会一点儿(比如一些词和简单的句子)
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />会一些(如日常对话或表达简单的想法)
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />较高水平 (接近母语，能顺畅表达想法)
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />母语水平
+						    			</label>
+									</div>
+									<div id="kejia-speaking" class="tab-pane fade">
+									    <label class="radio-inline" style="padding-top: 0;">
+		      								<input type="radio" name="optradio"/>完全不会
+		    							</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />会一点儿(比如一些词和简单的句子)
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />会一些(如日常对话或表达简单的想法)
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />较高水平 (接近母语，能顺畅表达想法)
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />母语水平
+						    			</label>
+								  	</div>
+								  	<div id="kejia-reading" class="tab-pane fade">
+									    <label class="radio-inline" style="padding-top: 0;">
+		      								<input type="radio" name="optradio"/>完全不会
+		    							</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />会一点儿(比如一些词和简单的句子)
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />会一些(如日常对话或表达简单的想法)
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />较高水平 (接近母语，能顺畅表达想法)
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />母语水平
+						    			</label>
+								  	</div>
+								  	<div id="kejia-writing" class="tab-pane fade">
+									    <label class="radio-inline" style="padding-top: 0;">
+		      								<input type="radio" name="optradio"/>完全不会
+		    							</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />会一点儿(比如一些词和简单的句子)
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />会一些(如日常对话或表达简单的想法)
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />较高水平 (接近母语，能顺畅表达想法)
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />母语水平
+						    			</label>
+								  	</div>
+								</div>
+	    					</div>
+						</div>
+					</div>
+	    		</div>
+
+	    		<div class="form-group">
+	    			<div class="col-xs-12">
+	    				<div class="panel panel-default" style="border: 1px dashed grey;">
+	    					<img class="img-responsive center-block" src="img/glyphicons-191-circle-plus.svg" alt="plus"/>
+	    				</div>
+	    			</div>
+	    		</div>
+
+	    		<div class="form-group" id="add-language-template">
+	    			<div class="col-xs-12">
+	    				<div class="panel panel-default">
+	    					<div class="panel-heading"><input type="text" class="form-control-inline"／></div>
+	  						<div class="panel-body">
+		  						<ul class="nav nav-tabs">
+			    					<li class="active"><a data-toggle="tab" href="#listening">听</a></li>
+								  	<li><a data-toggle="tab" href="#speaking">说</a></li>
+								  	<li><a data-toggle="tab" href="#reading">读</a></li>
+								  	<li><a data-toggle="tab" href="#writing">写</a></li>
+								</ul>
+			    				<div class="tab-content">
+			    					<div id="listening" class="tab-pane fade in active">
+									    <label class="radio-inline" style="padding-top: 0;">
+		      								<input type="radio" name="optradio"/>完全不会
+		    							</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />会一点儿(比如一些词和简单的句子)
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />会一些(如日常对话或表达简单的想法)
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />较高水平 (接近母语，能顺畅表达想法)
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />母语水平
+						    			</label>
+									</div>
+									<div id="speaking" class="tab-pane fade">
+									    <label class="radio-inline" style="padding-top: 0;">
+		      								<input type="radio" name="optradio"/>完全不会
+		    							</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />会一点儿(比如一些词和简单的句子)
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />会一些(如日常对话或表达简单的想法)
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />较高水平 (接近母语，能顺畅表达想法)
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />母语水平
+						    			</label>
+								  	</div>
+								  	<div id="reading" class="tab-pane fade">
+									    <label class="radio-inline" style="padding-top: 0;">
+		      								<input type="radio" name="optradio"/>完全不会
+		    							</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />会一点儿(比如一些词和简单的句子)
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />会一些(如日常对话或表达简单的想法)
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />较高水平 (接近母语，能顺畅表达想法)
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />母语水平
+						    			</label>
+								  	</div>
+								  	<div id="writing" class="tab-pane fade">
+									    <label class="radio-inline" style="padding-top: 0;">
+		      								<input type="radio" name="optradio"/>完全不会
+		    							</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />会一点儿(比如一些词和简单的句子)
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />会一些(如日常对话或表达简单的想法)
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />较高水平 (接近母语，能顺畅表达想法)
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />母语水平
+						    			</label>
+								  	</div>
+								</div>
+	    					</div>
+						</div>
+					</div>
+	    		</div>
+
+	    		<div class="form-group">
+	    			<div class="col-xs-12">
+	    				<div class="panel panel-default">
+	    					<div class="panel-heading">您和下列对象交流的时候经常使用哪种语言或方言?</div>
+	  						<div class="panel-body">
+		  						<ul class="nav nav-tabs">
+			    					<li class="active"><a data-toggle="tab" href="#grand-pa">祖父母</a></li>
+								  	<li><a data-toggle="tab" href="#pa-ma">父母</a></li>
+								  	<li><a data-toggle="tab" href="#bro-sis">兄弟姐妹</a></li>
+								  	<li><a data-toggle="tab" href="#classmate">同学</a></li>
+								  	<li><a data-toggle="tab" href="#friend">朋友</a></li>
+								  	<li><a data-toggle="tab" href="#stranger">街上的陌生人</a></li>
+								</ul>
+			    				<div class="tab-content">
+			    					<div id="grand-pa" class="tab-pane fade in active">
+									    <label class="radio-inline" style="padding-top: 0;">
+		      								<input type="radio" name="optradio"/>普通话／国语／华语
+		    							</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />英语
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />方言
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />其他
+						    			</label>
+						    			<input type="text" class="form-control-inline" id="language-other"／>
+									</div>
+									<div id="pa-ma" class="tab-pane fade">
+									    <label class="radio-inline" style="padding-top: 0;">
+		      								<input type="radio" name="optradio"/>普通话／国语／华语
+		    							</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />英语
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />方言
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />其他
+						    			</label>
+						    			<input type="text" class="form-control-inline" id="language-other"／>
+								  	</div>
+								  	<div id="bro-sis" class="tab-pane fade">
+									    <label class="radio-inline" style="padding-top: 0;">
+		      								<input type="radio" name="optradio"/>普通话／国语／华语
+		    							</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />英语
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />方言
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />其他
+						    			</label>
+						    			<input type="text" class="form-control-inline" id="language-other"／>
+								  	</div>
+								  	<div id="classmate" class="tab-pane fade">
+									    <label class="radio-inline" style="padding-top: 0;">
+		      								<input type="radio" name="optradio"/>普通话／国语／华语
+		    							</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />英语
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />方言
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />其他
+						    			</label>
+						    			<input type="text" class="form-control-inline" id="language-other"／>
+								  	</div>
+								  	<div id="friend" class="tab-pane fade">
+									    <label class="radio-inline" style="padding-top: 0;">
+		      								<input type="radio" name="optradio"/>普通话／国语／华语
+		    							</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />英语
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />方言
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />其他
+						    			</label>
+						    			<input type="text" class="form-control-inline" id="language-other"／>
+								  	</div>
+								  	<div id="stranger" class="tab-pane fade">
+									    <label class="radio-inline" style="padding-top: 0;">
+		      								<input type="radio" name="optradio"/>普通话／国语／华语
+		    							</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />英语
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />方言
+						    			</label>
+						    			<label class="radio-inline" style="padding-top: 0;">
+						      				<input type="radio" name="optradio" />其他
+						    			</label>
+						    			<input type="text" class="form-control-inline" id="language-other"／>
+								  	</div>
+								</div>
+	    					</div>
+						</div>
+					</div>
+	    		</div>
+
+	    		<div class="form-group">
+	    			<div class="col-xs-12">
+	    				<div class="panel panel-default">
+	    					<div class="panel-heading">您在下列各项活动中更常使用国语, 英语, 还是两者都经常使用？</div>
+	  						<div class="panel-body">
+		  						<ul class="nav nav-tabs">
+			    					<li class="active"><a data-toggle="tab" href="#newspaper">阅读报纸</a></li>
+								  	<li><a data-toggle="tab" href="#magazine">阅读休闲读物（小说、杂志等）</a></li>
+								  	<li><a data-toggle="tab" href="#tv">收看电视节目</a></li>
+								  	<li><a data-toggle="tab" href="#radio">收听广播节目</a></li>
+								  	<li><a data-toggle="tab" href="#letter">书写（简讯、电邮、书信等）</a></li>
+								  	<li><a data-toggle="tab" href="#internet">浏览互联网</a></li>
+								</ul>
+			    				<div class="tab-content">
+			    					<div id="newspaper" class="tab-pane fade in active">
+									    <label class="radio-inline" >
+		      								<input type="radio" name="optradio"/>更常使用国语
+		    							</label>
+						    			<label class="radio-inline">
+						      				<input type="radio" name="optradio" />两者都经常使用
+						    			</label>
+						    			<label class="radio-inline">
+						      				<input type="radio" name="optradio" />更常使用英语
+						    			</label>
+									</div>
+									<div id="magazine" class="tab-pane fade">
+									    <div id="grand-pa" class="tab-pane fade in active">
+										    <label class="radio-inline" >
+			      								<input type="radio" name="optradio"/>更常使用国语
+			    							</label>
+							    			<label class="radio-inline">
+							      				<input type="radio" name="optradio" />两者都经常使用
+							    			</label>
+							    			<label class="radio-inline">
+							      				<input type="radio" name="optradio" />更常使用英语
+							    			</label>
+							    		</div>
+									</div>
+								  	<div id="tv" class="tab-pane fade">
+									    <div id="grand-pa" class="tab-pane fade in active">
+										    <label class="radio-inline" >
+			      								<input type="radio" name="optradio"/>更常使用国语
+			    							</label>
+							    			<label class="radio-inline">
+							      				<input type="radio" name="optradio" />两者都经常使用
+							    			</label>
+							    			<label class="radio-inline">
+							      				<input type="radio" name="optradio" />更常使用英语
+							    			</label>
+							    		</div>
+									</div>
+								  	<div id="radio" class="tab-pane fade">
+									    <div id="grand-pa" class="tab-pane fade in active">
+										    <label class="radio-inline" >
+			      								<input type="radio" name="optradio"/>更常使用国语
+			    							</label>
+							    			<label class="radio-inline">
+							      				<input type="radio" name="optradio" />两者都经常使用
+							    			</label>
+							    			<label class="radio-inline">
+							      				<input type="radio" name="optradio" />更常使用英语
+							    			</label>
+							    		</div>
+									</div>
+								  	<div id="letter" class="tab-pane fade">
+									    <div id="grand-pa" class="tab-pane fade in active">
+										    <label class="radio-inline" >
+			      								<input type="radio" name="optradio"/>更常使用国语
+			    							</label>
+							    			<label class="radio-inline">
+							      				<input type="radio" name="optradio" />两者都经常使用
+							    			</label>
+							    			<label class="radio-inline">
+							      				<input type="radio" name="optradio" />更常使用英语
+							    			</label>
+							    		</div>
+									</div>
+								  	<div id="internet" class="tab-pane fade">
+									   <div id="grand-pa" class="tab-pane fade in active">
+										    <label class="radio-inline">
+			      								<input type="radio" name="optradio"/>更常使用国语
+			    							</label>
+							    			<label class="radio-inline">
+							      				<input type="radio" name="optradio" />两者都经常使用
+							    			</label>
+							    			<label class="radio-inline">
+							      				<input type="radio" name="optradio" />更常使用英语
+							    			</label>
+							    		</div>
+									</div>
+								</div>
+	    					</div>
+						</div>
+					</div>
+	    		</div>
+	    	</form>
+    	</div>
+  <!-- </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="pwd">Password:</label>
+    <div class="col-sm-10"> 
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+    </div>
+  </div>
+  <div class="form-group"> 
+    <div class="col-sm-offset-2 col-sm-10">
+      <div class="checkbox">
+        <label><input type="checkbox"> Remember me</label>
+      </div>
+    </div>
+  </div>
+  <div class="form-group"> 
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-default">Submit</button>
+    </div>
+  </div>
+</form> -->
+
+
+    </div> <!-- /container -->
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
+</html>
