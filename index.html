@@ -143,445 +143,472 @@
 	    				<div class="panel panel-default">
 	    					<div class="panel-heading">
 	    						<label class="radio-label-left">您会什么语言或方言，水平怎么样?
-	    							如果以下没有您会的语言/方言，请在表格下面加行填写。</label>
+	    							如果以下没有您会的语言/方言，请在下面加行填写。</label>
 	    					</div>
 	    					<div class="panel-body">
 	    						<div class="panel panel-default">
-	    					<div class="panel-heading">普通话／国语／华语</div>
-	  						<div class="panel-body">
-		  						<ul class="nav nav-tabs">
-			    					<li class="active"><a data-toggle="tab" href="#chinese-listening">听</a></li>
-								  	<li><a data-toggle="tab" href="#chinese-speaking">说</a></li>
-								  	<li><a data-toggle="tab" href="#chinese-reading">读</a></li>
-								  	<li><a data-toggle="tab" href="#chinese-writing">写</a></li>
-								</ul>
-			    				<div class="tab-content">
-			    					<div id="chinese-listening" class="tab-pane fade in active">
-									    <label class="radio-inline" style="padding-top: 0;">
-		      								<input type="radio" name="optradio"/>完全不会
-		    							</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />会一点儿(比如一些词和简单的句子)
-						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />会一些(如日常对话或表达简单的想法)
-						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />较高水平 (接近母语，能顺畅表达想法)
-						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />母语水平
-						    			</label>
-									</div>
-									<div id="chinese-speaking" class="tab-pane fade">
-									    <label class="radio-inline" style="padding-top: 0;">
-		      								<input type="radio" name="optradio"/>完全不会
-		    							</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />会一点儿(比如一些词和简单的句子)
-						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />会一些(如日常对话或表达简单的想法)
-						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />较高水平 (接近母语，能顺畅表达想法)
-						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />母语水平
-						    			</label>
-								  	</div>
-								  	<div id="chinese-reading" class="tab-pane fade">
-									    <label class="radio-inline" style="padding-top: 0;">
-		      								<input type="radio" name="optradio"/>完全不会
-		    							</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />会一点儿(比如一些词和简单的句子)
-						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />会一些(如日常对话或表达简单的想法)
-						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />较高水平 (接近母语，能顺畅表达想法)
-						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />母语水平
-						    			</label>
-								  	</div>
-								  	<div id="chinese-writing" class="tab-pane fade">
-									    <label class="radio-inline" style="padding-top: 0;">
-		      								<input type="radio" name="optradio"/>完全不会
-		    							</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />会一点儿(比如一些词和简单的句子)
-						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />会一些(如日常对话或表达简单的想法)
-						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />较高水平 (接近母语，能顺畅表达想法)
-						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />母语水平
-						    			</label>
-								  	</div>
+	    							<div class="panel-heading">普通话／国语／华语</div>
+	  								<div class="panel-body">
+				  						<ul class="nav nav-tabs">
+					    					<li class="active"><a data-toggle="tab" href="#chinese-listening">听</a></li>
+										  	<li><a data-toggle="tab" href="#chinese-speaking">说</a></li>
+										  	<li><a data-toggle="tab" href="#chinese-reading">读</a></li>
+										  	<li><a data-toggle="tab" href="#chinese-writing">写</a></li>
+										</ul>
+					    				<div class="tab-content">
+					    					<div id="chinese-listening" class="tab-pane fade in active">
+					    						<fieldset id="chinese-listening-proficiency">
+												    <label class="radio-inline" >
+					      								<input type="radio" name="chi-lis-pro"/>完全不会
+					    							</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="chi-lis-pro" />会一点儿(比如一些词和简单的句子)
+									    			</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="chi-lis-pro" />会一些(如日常对话或表达简单的想法)
+									    			</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="chi-lis-pro" />较高水平 (接近母语，能顺畅表达想法)
+									    			</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="chi-lis-pro" />母语水平
+									    			</label>
+								    			</fieldset>
+											</div>
+											<div id="chinese-speaking" class="tab-pane fade">
+												<fieldset id="chinese-speaking-proficiency">
+												    <label class="radio-inline" >
+					      								<input type="radio" name="chi-spe-pro"/>完全不会
+					    							</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="chi-spe-pro" />会一点儿(比如一些词和简单的句子)
+									    			</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="chi-spe-pro" />会一些(如日常对话或表达简单的想法)
+									    			</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="chi-spe-pro" />较高水平 (接近母语，能顺畅表达想法)
+									    			</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="chi-spe-pro" />母语水平
+									    			</label>
+									    		</fieldset>
+										  	</div>
+										  	<div id="chinese-reading" class="tab-pane fade">
+										  		<fieldset id="chinese-reading-proficiency">
+												    <label class="radio-inline" >
+					      								<input type="radio" name="chi-rea-pro"/>完全不会
+					    							</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="chi-rea-pro" />会一点儿(比如一些词和简单的句子)
+									    			</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="chi-rea-pro" />会一些(如日常对话或表达简单的想法)
+									    			</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="chi-rea-pro" />较高水平 (接近母语，能顺畅表达想法)
+									    			</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="chi-rea-pro" />母语水平
+									    			</label>
+									    		</fieldset>
+										  	</div>
+										  	<div id="chinese-writing" class="tab-pane fade">
+										  		<fieldset id="chinese-writing-proficiency">
+												    <label class="radio-inline" >
+					      								<input type="radio" name="chi-wri-pro"/>完全不会
+					    							</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="chi-wri-pro" />会一点儿(比如一些词和简单的句子)
+									    			</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="chi-wri-pro" />会一些(如日常对话或表达简单的想法)
+									    			</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="chi-wri-pro" />较高水平 (接近母语，能顺畅表达想法)
+									    			</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="chi-wri-pro" />母语水平
+									    			</label>
+									    		</fieldset>
+										  	</div>
+										</div>
+	    							</div>
+	    						</div>
+
+	    						<div class="panel panel-default">
+	    							<div class="panel-heading">英语</div>
+	  								<div class="panel-body">
+				  						<ul class="nav nav-tabs">
+					    					<li class="active"><a data-toggle="tab" href="#english-listening">听</a></li>
+										  	<li><a data-toggle="tab" href="#english-speaking">说</a></li>
+										  	<li><a data-toggle="tab" href="#english-reading">读</a></li>
+										  	<li><a data-toggle="tab" href="#english-writing">写</a></li>
+										</ul>
+					    				<div class="tab-content">
+					    					<div id="english-listening" class="tab-pane fade in active">
+					    						<fieldset id="english-listening-proficiency">
+												    <label class="radio-inline" >
+					      								<input type="radio" name="eng-lis-pro"/>完全不会
+					    							</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="eng-lis-pro" />会一点儿(比如一些词和简单的句子)
+									    			</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="eng-lis-pro" />会一些(如日常对话或表达简单的想法)
+									    			</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="eng-lis-pro" />较高水平 (接近母语，能顺畅表达想法)
+									    			</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="eng-lis-pro" />母语水平
+									    			</label>
+									    		</fieldset>
+											</div>
+											<div id="english-speaking" class="tab-pane fade">
+												<fieldset id="english-speaking-proficiency">
+												    <label class="radio-inline" >
+					      								<input type="radio" name="eng-spe-pro"/>完全不会
+					    							</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="eng-spe-pro" />会一点儿(比如一些词和简单的句子)
+									    			</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="eng-spe-pro" />会一些(如日常对话或表达简单的想法)
+									    			</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="eng-spe-pro" />较高水平 (接近母语，能顺畅表达想法)
+									    			</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="eng-spe-pro" />母语水平
+									    			</label>
+								    			</fieldset>
+										  	</div>
+										  	<div id="english-reading" class="tab-pane fade">
+										  		<fieldset id="english-reading-proficiency">
+												    <label class="radio-inline" >
+					      								<input type="radio" name="eng-rea-pro"/>完全不会
+					    							</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="eng-rea-pro" />会一点儿(比如一些词和简单的句子)
+									    			</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="eng-rea-pro" />会一些(如日常对话或表达简单的想法)
+									    			</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="eng-rea-pro" />较高水平 (接近母语，能顺畅表达想法)
+									    			</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="eng-rea-pro" />母语水平
+									    			</label>
+								    			</fieldset>
+										  	</div>
+										  	<div id="english-writing" class="tab-pane fade">
+										  		<fieldset id="english-writing-proficiency">
+												    <label class="radio-inline" >
+					      								<input type="radio" name="eng-wri-pro"/>完全不会
+					    							</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="eng-wri-pro" />会一点儿(比如一些词和简单的句子)
+									    			</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="eng-wri-pro" />会一些(如日常对话或表达简单的想法)
+									    			</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="eng-wri-pro" />较高水平 (接近母语，能顺畅表达想法)
+									    			</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="eng-wri-pro" />母语水平
+									    			</label>
+								    			</fieldset>
+										  	</div>
+										</div>
+	    							</div>
 								</div>
-								
-	    					</div>
-						</div>
-	    					</div>
+
+								<div class="panel panel-default">
+	    							<div class="panel-heading">台语／闽南话</div>
+	  								<div class="panel-body">
+				  						<ul class="nav nav-tabs">
+					    					<li class="active"><a data-toggle="tab" href="#taiwanese-listening">听</a></li>
+										  	<li><a data-toggle="tab" href="#taiwanese-speaking">说</a></li>
+										  	<li><a data-toggle="tab" href="#taiwanese-reading">读</a></li>
+										  	<li><a data-toggle="tab" href="#taiwanese-writing">写</a></li>
+										</ul>
+					    				<div class="tab-content">
+					    					<div id="taiwanese-listening" class="tab-pane fade in active">
+					    						<fieldset id="taiwanese-listening-proficiency">
+												    <label class="radio-inline" >
+					      								<input type="radio" name="tai-lis-pro"/>完全不会
+					    							</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="tai-lis-pro" />会一点儿(比如一些词和简单的句子)
+									    			</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="tai-lis-pro" />会一些(如日常对话或表达简单的想法)
+									    			</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="tai-lis-pro" />较高水平 (接近母语，能顺畅表达想法)
+									    			</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="tai-lis-pro" />母语水平
+									    			</label>
+								    			</fieldset>
+											</div>
+											<div id="taiwanese-speaking" class="tab-pane fade">
+												<fieldset id="taiwanese-speaking-proficiency">
+												    <label class="radio-inline" >
+					      								<input type="radio" name="tai-spe-pro"/>完全不会
+					    							</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="tai-spe-pro" />会一点儿(比如一些词和简单的句子)
+									    			</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="tai-spe-pro" />会一些(如日常对话或表达简单的想法)
+									    			</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="tai-spe-pro" />较高水平 (接近母语，能顺畅表达想法)
+									    			</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="tai-spe-pro" />母语水平
+									    			</label>
+								    			</fieldset>
+										  	</div>
+										  	<div id="taiwanese-reading" class="tab-pane fade">
+										  		<fieldset id="taiwanese-reading-proficiency">
+												    <label class="radio-inline" >
+					      								<input type="radio" name="tai-rea-pro"/>完全不会
+					    							</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="tai-rea-pro" />会一点儿(比如一些词和简单的句子)
+									    			</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="tai-rea-pro" />会一些(如日常对话或表达简单的想法)
+									    			</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="tai-rea-pro" />较高水平 (接近母语，能顺畅表达想法)
+									    			</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="tai-rea-pro" />母语水平
+									    			</label>
+								    			</fieldset>
+										  	</div>
+										  	<div id="taiwanese-writing" class="tab-pane fade">
+										  		<fieldset id="taiwanese-writing-proficiency">
+												    <label class="radio-inline" >
+					      								<input type="radio" name="tai-wri-pro"/>完全不会
+					    							</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="tai-wri-pro" />会一点儿(比如一些词和简单的句子)
+									    			</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="tai-wri-pro" />会一些(如日常对话或表达简单的想法)
+									    			</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="tai-wri-pro" />较高水平 (接近母语，能顺畅表达想法)
+									    			</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="tai-wri-pro" />母语水平
+									    			</label>
+								    			</fieldset>
+										  	</div>
+										</div>
+	    							</div>
+								</div>
+
+								<div class="panel panel-default">
+	    							<div class="panel-heading">客家话</div>
+	  								<div class="panel-body">
+				  						<ul class="nav nav-tabs">
+					    					<li class="active"><a data-toggle="tab" href="#kejia-listening">听</a></li>
+										  	<li><a data-toggle="tab" href="#kejia-speaking">说</a></li>
+										  	<li><a data-toggle="tab" href="#kejia-reading">读</a></li>
+										  	<li><a data-toggle="tab" href="#kejia-writing">写</a></li>
+										</ul>
+					    				<div class="tab-content">
+					    					<div id="kejia-listening" class="tab-pane fade in active">
+					    						<fieldset id="kejia-listening-proficiency">
+												    <label class="radio-inline" >
+					      								<input type="radio" name="kej-lis-pro"/>完全不会
+					    							</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="kej-lis-pro" />会一点儿(比如一些词和简单的句子)
+									    			</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="kej-lis-pro" />会一些(如日常对话或表达简单的想法)
+									    			</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="kej-lis-pro" />较高水平 (接近母语，能顺畅表达想法)
+									    			</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="kej-lis-pro" />母语水平
+									    			</label>
+								    			</fieldset>
+											</div>
+											<div id="kejia-speaking" class="tab-pane fade">
+												<fieldset id="kejia-speaking-proficiency">
+												    <label class="radio-inline" >
+					      								<input type="radio" name="kej-spe-pro"/>完全不会
+					    							</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="kej-spe-pro" />会一点儿(比如一些词和简单的句子)
+									    			</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="kej-spe-pro" />会一些(如日常对话或表达简单的想法)
+									    			</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="kej-spe-pro" />较高水平 (接近母语，能顺畅表达想法)
+									    			</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="kej-spe-pro" />母语水平
+									    			</label>
+								    			</fieldset>
+										  	</div>
+										  	<div id="kejia-reading" class="tab-pane fade">
+										  		<fieldset id="kejia-reading-proficiency">
+												    <label class="radio-inline" >
+					      								<input type="radio" name="kej-rea-pro"/>完全不会
+					    							</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="kej-rea-pro" />会一点儿(比如一些词和简单的句子)
+									    			</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="kej-rea-pro" />会一些(如日常对话或表达简单的想法)
+									    			</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="kej-rea-pro" />较高水平 (接近母语，能顺畅表达想法)
+									    			</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="kej-rea-pro" />母语水平
+									    			</label>
+								    			</fieldset>
+										  	</div>
+										  	<div id="kejia-writing" class="tab-pane fade">
+										  		<fieldset id="kejia-writing-proficiency">
+												    <label class="radio-inline" >
+					      								<input type="radio" name="kej-wri-pro"/>完全不会
+					    							</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="kej-wri-pro" />会一点儿(比如一些词和简单的句子)
+									    			</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="kej-wri-pro" />会一些(如日常对话或表达简单的想法)
+									    			</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="kej-wri-pro" />较高水平 (接近母语，能顺畅表达想法)
+									    			</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="kej-wri-pro" />母语水平
+									    			</label>
+								    			</fieldset>
+										  	</div>
+										</div>
+	    							</div>
+								</div>
+
+								<div class="panel panel-default">
+	    							<div class="panel-heading"><input type="text" class="form-control-inline"／></div>
+	  								<div class="panel-body">
+				  						<ul class="nav nav-tabs">
+					    					<li class="active"><a data-toggle="tab" href="#general-listening">听</a></li>
+										  	<li><a data-toggle="tab" href="#general-speaking">说</a></li>
+										  	<li><a data-toggle="tab" href="#general-reading">读</a></li>
+										  	<li><a data-toggle="tab" href="#general-writing">写</a></li>
+										</ul>
+					    				<div class="tab-content">
+					    					<div id="general-listening" class="tab-pane fade in active">
+					    						<fieldset id="general-listening-proficiency">
+												    <label class="radio-inline">
+					      								<input type="radio" name="gen-lis-pro"/>完全不会
+					    							</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="gen-lis-pro" />会一点儿(比如一些词和简单的句子)
+									    			</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="gen-lis-pro" />会一些(如日常对话或表达简单的想法)
+									    			</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="gen-lis-pro" />较高水平 (接近母语，能顺畅表达想法)
+									    			</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="gen-lis-pro" />母语水平
+									    			</label>
+								    			</fieldset>
+											</div>
+											<div id="general-speaking" class="tab-pane fade">
+												<fieldset id="general-speaking-proficiency">
+												    <label class="radio-inline" >
+					      								<input type="radio" name="gen-spe-pro"/>完全不会
+					    							</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="gen-spe-pro" />会一点儿(比如一些词和简单的句子)
+									    			</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="gen-spe-pro" />会一些(如日常对话或表达简单的想法)
+									    			</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="gen-spe-pro" />较高水平 (接近母语，能顺畅表达想法)
+									    			</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="gen-spe-pro" />母语水平
+									    			</label>
+								    			</fieldset>
+										  	</div>
+										  	<div id="general-reading" class="tab-pane fade">
+										  		<fieldset id="general-reading-proficiency">
+												    <label class="radio-inline" >
+					      								<input type="radio" name="gen-rea-pro"/>完全不会
+					    							</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="gen-rea-pro" />会一点儿(比如一些词和简单的句子)
+									    			</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="gen-rea-pro" />会一些(如日常对话或表达简单的想法)
+									    			</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="gen-rea-pro" />较高水平 (接近母语，能顺畅表达想法)
+									    			</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="gen-rea-pro" />母语水平
+									    			</label>
+								    			</fieldset>
+										  	</div>
+										  	<div id="general-writing" class="tab-pane fade">
+										  		<fieldset id="general-writing-proficiency">
+												    <label class="radio-inline" >
+					      								<input type="radio" name="gen-wri-pro"/>完全不会
+					    							</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="gen-wri-pro" />会一点儿(比如一些词和简单的句子)
+									    			</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="gen-wri-pro" />会一些(如日常对话或表达简单的想法)
+									    			</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="gen-wri-pro" />较高水平 (接近母语，能顺畅表达想法)
+									    			</label>
+									    			<label class="radio-inline" >
+									      				<input type="radio" name="gen-wri-pro" />母语水平
+									    			</label>
+								    			</fieldset>
+										  	</div>
+										</div>
+	    							</div>
+								</div>
+
+								<div class="panel panel-default" style="border: 1px dashed grey;">
+	    							<img class="img-responsive center-block" src="img/glyphicons-191-circle-plus.svg" alt="plus"/>
+	    						</div>
+							</div>
 	    				</div>
 	    			</div>
 	    		</div>
 
-	    		<div class="form-group">
+	    		<!-- <div class="form-group hide" id="add-language-template">
 	    			<div class="col-xs-12">
-	    				<div class="panel panel-default">
-	    					<div class="panel-heading">英语</div>
-	  						<div class="panel-body">
-		  						<ul class="nav nav-tabs">
-			    					<li class="active"><a data-toggle="tab" href="#english-listening">听</a></li>
-								  	<li><a data-toggle="tab" href="#englsih-speaking">说</a></li>
-								  	<li><a data-toggle="tab" href="#englsih-reading">读</a></li>
-								  	<li><a data-toggle="tab" href="#englsih-writing">写</a></li>
-								</ul>
-			    				<div class="tab-content">
-			    					<div id="englsih-listening" class="tab-pane fade in active">
-									    <label class="radio-inline" style="padding-top: 0;">
-		      								<input type="radio" name="optradio"/>完全不会
-		    							</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />会一点儿(比如一些词和简单的句子)
-						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />会一些(如日常对话或表达简单的想法)
-						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />较高水平 (接近母语，能顺畅表达想法)
-						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />母语水平
-						    			</label>
-									</div>
-									<div id="englsih-speaking" class="tab-pane fade">
-									    <label class="radio-inline" style="padding-top: 0;">
-		      								<input type="radio" name="optradio"/>完全不会
-		    							</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />会一点儿(比如一些词和简单的句子)
-						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />会一些(如日常对话或表达简单的想法)
-						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />较高水平 (接近母语，能顺畅表达想法)
-						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />母语水平
-						    			</label>
-								  	</div>
-								  	<div id="englsih-reading" class="tab-pane fade">
-									    <label class="radio-inline" style="padding-top: 0;">
-		      								<input type="radio" name="optradio"/>完全不会
-		    							</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />会一点儿(比如一些词和简单的句子)
-						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />会一些(如日常对话或表达简单的想法)
-						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />较高水平 (接近母语，能顺畅表达想法)
-						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />母语水平
-						    			</label>
-								  	</div>
-								  	<div id="englsih-writing" class="tab-pane fade">
-									    <label class="radio-inline" style="padding-top: 0;">
-		      								<input type="radio" name="optradio"/>完全不会
-		    							</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />会一点儿(比如一些词和简单的句子)
-						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />会一些(如日常对话或表达简单的想法)
-						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />较高水平 (接近母语，能顺畅表达想法)
-						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />母语水平
-						    			</label>
-								  	</div>
-								</div>
-	    					</div>
-						</div>
+	    				
 					</div>
-	    		</div>
-	    		<div class="form-group">
-	    			<div class="col-xs-12">
-	    				<div class="panel panel-default">
-	    					<div class="panel-heading">台语／闽南话</div>
-	  						<div class="panel-body">
-		  						<ul class="nav nav-tabs">
-			    					<li class="active"><a data-toggle="tab" href="#taiwanese-listening">听</a></li>
-								  	<li><a data-toggle="tab" href="#taiwanese-speaking">说</a></li>
-								  	<li><a data-toggle="tab" href="#taiwanese-reading">读</a></li>
-								  	<li><a data-toggle="tab" href="#taiwanese-writing">写</a></li>
-								</ul>
-			    				<div class="tab-content">
-			    					<div id="taiwanese-listening" class="tab-pane fade in active">
-									    <label class="radio-inline" style="padding-top: 0;">
-		      								<input type="radio" name="optradio"/>完全不会
-		    							</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />会一点儿(比如一些词和简单的句子)
-						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />会一些(如日常对话或表达简单的想法)
-						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />较高水平 (接近母语，能顺畅表达想法)
-						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />母语水平
-						    			</label>
-									</div>
-									<div id="taiwanese-speaking" class="tab-pane fade">
-									    <label class="radio-inline" style="padding-top: 0;">
-		      								<input type="radio" name="optradio"/>完全不会
-		    							</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />会一点儿(比如一些词和简单的句子)
-						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />会一些(如日常对话或表达简单的想法)
-						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />较高水平 (接近母语，能顺畅表达想法)
-						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />母语水平
-						    			</label>
-								  	</div>
-								  	<div id="taiwanese-reading" class="tab-pane fade">
-									    <label class="radio-inline" style="padding-top: 0;">
-		      								<input type="radio" name="optradio"/>完全不会
-		    							</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />会一点儿(比如一些词和简单的句子)
-						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />会一些(如日常对话或表达简单的想法)
-						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />较高水平 (接近母语，能顺畅表达想法)
-						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />母语水平
-						    			</label>
-								  	</div>
-								  	<div id="taiwanese-writing" class="tab-pane fade">
-									    <label class="radio-inline" style="padding-top: 0;">
-		      								<input type="radio" name="optradio"/>完全不会
-		    							</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />会一点儿(比如一些词和简单的句子)
-						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />会一些(如日常对话或表达简单的想法)
-						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />较高水平 (接近母语，能顺畅表达想法)
-						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />母语水平
-						    			</label>
-								  	</div>
-								</div>
-	    					</div>
-						</div>
-					</div>
-	    		</div>
-	    		<div class="form-group">
-	    			<div class="col-xs-12">
-	    				<div class="panel panel-default">
-	    					<div class="panel-heading">客家话</div>
-	  						<div class="panel-body">
-		  						<ul class="nav nav-tabs">
-			    					<li class="active"><a data-toggle="tab" href="#kejia-listening">听</a></li>
-								  	<li><a data-toggle="tab" href="#kejia-speaking">说</a></li>
-								  	<li><a data-toggle="tab" href="#kejia-reading">读</a></li>
-								  	<li><a data-toggle="tab" href="#kejia-writing">写</a></li>
-								</ul>
-			    				<div class="tab-content">
-			    					<div id="kejia-listening" class="tab-pane fade in active">
-									    <label class="radio-inline" style="padding-top: 0;">
-		      								<input type="radio" name="optradio"/>完全不会
-		    							</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />会一点儿(比如一些词和简单的句子)
-						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />会一些(如日常对话或表达简单的想法)
-						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />较高水平 (接近母语，能顺畅表达想法)
-						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />母语水平
-						    			</label>
-									</div>
-									<div id="kejia-speaking" class="tab-pane fade">
-									    <label class="radio-inline" style="padding-top: 0;">
-		      								<input type="radio" name="optradio"/>完全不会
-		    							</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />会一点儿(比如一些词和简单的句子)
-						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />会一些(如日常对话或表达简单的想法)
-						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />较高水平 (接近母语，能顺畅表达想法)
-						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />母语水平
-						    			</label>
-								  	</div>
-								  	<div id="kejia-reading" class="tab-pane fade">
-									    <label class="radio-inline" style="padding-top: 0;">
-		      								<input type="radio" name="optradio"/>完全不会
-		    							</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />会一点儿(比如一些词和简单的句子)
-						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />会一些(如日常对话或表达简单的想法)
-						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />较高水平 (接近母语，能顺畅表达想法)
-						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />母语水平
-						    			</label>
-								  	</div>
-								  	<div id="kejia-writing" class="tab-pane fade">
-									    <label class="radio-inline" style="padding-top: 0;">
-		      								<input type="radio" name="optradio"/>完全不会
-		    							</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />会一点儿(比如一些词和简单的句子)
-						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />会一些(如日常对话或表达简单的想法)
-						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />较高水平 (接近母语，能顺畅表达想法)
-						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />母语水平
-						    			</label>
-								  	</div>
-								</div>
-	    					</div>
-						</div>
-					</div>
-	    		</div>
-
-	    		<div class="form-group">
-	    			<div class="col-xs-12">
-	    				<div class="panel panel-default" style="border: 1px dashed grey;">
-	    					<img class="img-responsive center-block" src="img/glyphicons-191-circle-plus.svg" alt="plus"/>
-	    				</div>
-	    			</div>
-	    		</div>
-
-	    		<div class="form-group" id="add-language-template">
-	    			<div class="col-xs-12">
-	    				<div class="panel panel-default">
-	    					<div class="panel-heading"><input type="text" class="form-control-inline"／></div>
-	  						<div class="panel-body">
-		  						<ul class="nav nav-tabs">
-			    					<li class="active"><a data-toggle="tab" href="#listening">听</a></li>
-								  	<li><a data-toggle="tab" href="#speaking">说</a></li>
-								  	<li><a data-toggle="tab" href="#reading">读</a></li>
-								  	<li><a data-toggle="tab" href="#writing">写</a></li>
-								</ul>
-			    				<div class="tab-content">
-			    					<div id="listening" class="tab-pane fade in active">
-									    <label class="radio-inline" style="padding-top: 0;">
-		      								<input type="radio" name="optradio"/>完全不会
-		    							</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />会一点儿(比如一些词和简单的句子)
-						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />会一些(如日常对话或表达简单的想法)
-						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />较高水平 (接近母语，能顺畅表达想法)
-						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />母语水平
-						    			</label>
-									</div>
-									<div id="speaking" class="tab-pane fade">
-									    <label class="radio-inline" style="padding-top: 0;">
-		      								<input type="radio" name="optradio"/>完全不会
-		    							</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />会一点儿(比如一些词和简单的句子)
-						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />会一些(如日常对话或表达简单的想法)
-						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />较高水平 (接近母语，能顺畅表达想法)
-						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />母语水平
-						    			</label>
-								  	</div>
-								  	<div id="reading" class="tab-pane fade">
-									    <label class="radio-inline" style="padding-top: 0;">
-		      								<input type="radio" name="optradio"/>完全不会
-		    							</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />会一点儿(比如一些词和简单的句子)
-						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />会一些(如日常对话或表达简单的想法)
-						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />较高水平 (接近母语，能顺畅表达想法)
-						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />母语水平
-						    			</label>
-								  	</div>
-								  	<div id="writing" class="tab-pane fade">
-									    <label class="radio-inline" style="padding-top: 0;">
-		      								<input type="radio" name="optradio"/>完全不会
-		    							</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />会一点儿(比如一些词和简单的句子)
-						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />会一些(如日常对话或表达简单的想法)
-						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />较高水平 (接近母语，能顺畅表达想法)
-						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />母语水平
-						    			</label>
-								  	</div>
-								</div>
-	    					</div>
-						</div>
-					</div>
-	    		</div>
+	    		</div> -->
 
 	    		<div class="form-group">
 	    			<div class="col-xs-12">
@@ -589,100 +616,102 @@
 	    					<div class="panel-heading">您和下列对象交流的时候经常使用哪种语言或方言?</div>
 	  						<div class="panel-body">
 		  						<ul class="nav nav-tabs">
-			    					<li class="active"><a data-toggle="tab" href="#grand-pa">祖父母</a></li>
-								  	<li><a data-toggle="tab" href="#pa-ma">父母</a></li>
-								  	<li><a data-toggle="tab" href="#bro-sis">兄弟姐妹</a></li>
-								  	<li><a data-toggle="tab" href="#classmate">同学</a></li>
-								  	<li><a data-toggle="tab" href="#friend">朋友</a></li>
-								  	<li><a data-toggle="tab" href="#stranger">街上的陌生人</a></li>
+			    					<li class="active"><a data-toggle="tab" href="#language-grand-pa">祖父母</a></li>
+								  	<li><a data-toggle="tab" href="#language-pa-ma">父母</a></li>
+								  	<li><a data-toggle="tab" href="#language-bro-sis">兄弟姐妹</a></li>
+								  	<li><a data-toggle="tab" href="#language-classmate">同学</a></li>
+								  	<li><a data-toggle="tab" href="#language-friend">朋友</a></li>
+								  	<li><a data-toggle="tab" href="#language-stranger">街上的陌生人</a></li>
 								</ul>
 			    				<div class="tab-content">
-			    					<div id="grand-pa" class="tab-pane fade in active">
-									    <label class="radio-inline" style="padding-top: 0;">
-		      								<input type="radio" name="optradio"/>普通话／国语／华语
-		    							</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />英语
-						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />方言
-						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
-						      				<input type="radio" name="optradio" />其他
-						    			</label>
-						    			<input type="text" class="form-control-inline" id="language-other"／>
+			    					<div id="language-grand-pa" class="tab-pane fade in active">
+			    						<fieldset id="language-to-grand-pa">
+										    <label class="radio-inline" >
+			      								<input type="radio" name="lang-gra-pa"/>普通话／国语／华语
+			    							</label>
+							    			<label class="radio-inline" >
+							      				<input type="radio" name="lang-gra-pa" />英语
+							    			</label>
+							    			<label class="radio-inline" >
+							      				<input type="radio" name="lang-gra-pa" />方言
+							    			</label>
+							    			<label class="radio-inline" >
+							      				<input type="radio" name="lang-gra-pa" />其他
+							    			</label>
+							    			<input type="text" class="form-control-inline" name="lang-gra-pa-other" id="language-other"／>
+						    			</fieldset>
 									</div>
-									<div id="pa-ma" class="tab-pane fade">
-									    <label class="radio-inline" style="padding-top: 0;">
+									<div id="language-pa-ma" class="tab-pane fade">
+									    <label class="radio-inline" >
 		      								<input type="radio" name="optradio"/>普通话／国语／华语
 		    							</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
+						    			<label class="radio-inline" >
 						      				<input type="radio" name="optradio" />英语
 						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
+						    			<label class="radio-inline" >
 						      				<input type="radio" name="optradio" />方言
 						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
+						    			<label class="radio-inline" >
 						      				<input type="radio" name="optradio" />其他
 						    			</label>
 						    			<input type="text" class="form-control-inline" id="language-other"／>
 								  	</div>
-								  	<div id="bro-sis" class="tab-pane fade">
-									    <label class="radio-inline" style="padding-top: 0;">
+								  	<div id="language-bro-sis" class="tab-pane fade">
+									    <label class="radio-inline" >
 		      								<input type="radio" name="optradio"/>普通话／国语／华语
 		    							</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
+						    			<label class="radio-inline" >
 						      				<input type="radio" name="optradio" />英语
 						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
+						    			<label class="radio-inline" >
 						      				<input type="radio" name="optradio" />方言
 						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
+						    			<label class="radio-inline" >
 						      				<input type="radio" name="optradio" />其他
 						    			</label>
 						    			<input type="text" class="form-control-inline" id="language-other"／>
 								  	</div>
-								  	<div id="classmate" class="tab-pane fade">
-									    <label class="radio-inline" style="padding-top: 0;">
+								  	<div id="language-classmate" class="tab-pane fade">
+									    <label class="radio-inline" >
 		      								<input type="radio" name="optradio"/>普通话／国语／华语
 		    							</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
+						    			<label class="radio-inline" >
 						      				<input type="radio" name="optradio" />英语
 						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
+						    			<label class="radio-inline" >
 						      				<input type="radio" name="optradio" />方言
 						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
+						    			<label class="radio-inline" >
 						      				<input type="radio" name="optradio" />其他
 						    			</label>
 						    			<input type="text" class="form-control-inline" id="language-other"／>
 								  	</div>
-								  	<div id="friend" class="tab-pane fade">
-									    <label class="radio-inline" style="padding-top: 0;">
+								  	<div id="language-friend" class="tab-pane fade">
+									    <label class="radio-inline" >
 		      								<input type="radio" name="optradio"/>普通话／国语／华语
 		    							</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
+						    			<label class="radio-inline" >
 						      				<input type="radio" name="optradio" />英语
 						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
+						    			<label class="radio-inline" >
 						      				<input type="radio" name="optradio" />方言
 						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
+						    			<label class="radio-inline" >
 						      				<input type="radio" name="optradio" />其他
 						    			</label>
 						    			<input type="text" class="form-control-inline" id="language-other"／>
 								  	</div>
-								  	<div id="stranger" class="tab-pane fade">
-									    <label class="radio-inline" style="padding-top: 0;">
+								  	<div id="language-stranger" class="tab-pane fade">
+									    <label class="radio-inline" >
 		      								<input type="radio" name="optradio"/>普通话／国语／华语
 		    							</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
+						    			<label class="radio-inline" >
 						      				<input type="radio" name="optradio" />英语
 						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
+						    			<label class="radio-inline" >
 						      				<input type="radio" name="optradio" />方言
 						    			</label>
-						    			<label class="radio-inline" style="padding-top: 0;">
+						    			<label class="radio-inline" >
 						      				<input type="radio" name="optradio" />其他
 						    			</label>
 						    			<input type="text" class="form-control-inline" id="language-other"／>
