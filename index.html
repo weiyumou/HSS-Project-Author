@@ -40,106 +40,154 @@
       	</div>
 
       	<div class="row">
-	      	<form class="form-horizontal">
-	      	
+      		<div class="col-sm-12">
+	      	<form class="form-horizontal" action="#">
 	  			<div class="form-group">
-	  				<div class="col-xs-8">
-		  				<label class="radio-label-left">您的性别：</label>
-		    			<label class="radio-inline" style="padding-top: 0;">
-		      				<input type="radio" name="optradio" />男
-		    			</label>
-		    			<label class="radio-inline" style="padding-top: 0;">
-		      				<input type="radio" name="optradio" />女
-		    			</label>
+	  				<div class="col-sm-12">
+	  					<div class="panel panel-default">
+	    					<div class="panel-heading">
+		  						<label class="radio-label-left">您的性别：</label>
+		  					</div>
+		  					<div class="panel-body">
+		  						<fieldset id="your-sex">
+					    			<label class="radio-inline" style="padding-top: 0;">
+					      				<input type="radio" name="sex" />男
+					    			</label>
+					    			<label class="radio-inline" style="padding-top: 0;">
+					      				<input type="radio" name="sex" />女
+					    			</label>
+				    			</fieldset>
+				    		</div>
+				    	</div>
 	    			</div>
 	    		</div>
 
 	    		<div class="form-group">
-	    			<div class="col-xs-8">
-		  				<label class="radio-label-left">您的年龄：</label>
-		    			<label class="radio-inline" style="padding-top: 0;">
-		      				<input type="radio" name="optradio" id="year1" />小于17岁
-		    			</label>
-		    			<label class="radio-inline" style="padding-top: 0;">
-		      				<input type="radio" name="optradio" />18-20岁
-		    			</label>
-		    			<label class="radio-inline" style="padding-top: 0;">
-		      				<input type="radio" name="optradio" />21岁以上
-		    			</label>
+	    			<div class="col-sm-12">
+	    				<div class="panel panel-default">
+	    					<div class="panel-heading">
+		  						<label class="radio-label-left">您的年龄：</label>
+		  					</div>
+		  					<div class="panel-body">
+		  						<fieldset id="your-age">
+					    			<label class="radio-inline" style="padding-top: 0;">
+					      				<input type="radio" name="age" />小于17岁
+					    			</label>
+					    			<label class="radio-inline" style="padding-top: 0;">
+					      				<input type="radio" name="age" />18-20岁
+					    			</label>
+					    			<label class="radio-inline" style="padding-top: 0;">
+					      				<input type="radio" name="age" />21岁以上
+					    			</label>
+				    			</fieldset>
+				    		</div>
+				    	</div>
 	    			</div>
 	    		</div>
 
 	    		<div class="form-group">
-	    			<div class="col-xs-8">
-		  				<label style="margin-right:10px;" for="school">您的学校: </label>
-		    			<input type="text" class="form-control-inline" id="school"／>
-		    			<label style="margin-right:10px;" for="year">年级: </label>
-		    			<input type="text" class="form-control-inline" id="year" ／>
+	    			<div class="col-sm-12">
+	    				<div class="panel panel-default">
+	    					<div class="panel-heading">
+		  						<label class="radio-label-left">您的学校和年级: </label>
+		  					</div>
+			  				<div class="panel-body">
+				    			<input type="text" class="form-control" name="school-year"／>
+				    		</div>
+				    	</div>
 		    		</div>
 	    		</div>
 
 	    		<div class="form-group">
-	    			<div class="col-xs-8">
-		  				<label style="margin-right:10px;" for="school">您的国籍: </label>
-		    			<input type="text" class="form-control-inline" id="school"／>
+	    			<div class="col-sm-12">
+	    				<div class="panel panel-default">
+	    					<div class="panel-heading">
+		  						<label class="radio-label-left">您的国籍: </label>
+		  					</div>
+		  					<div class="panel-body">
+		    					<input type="text" class="form-control" name="nationality"／>
+		    				</div>
+		    			</div>
 		    		</div>
 	    		</div>
 
 	    		<div class="form-group">
-	    			<div class="col-xs-12">
-		  				<label class="radio-label-left">您出生的国家或地区：</label>
-		    			<label class="radio-inline" style="padding-top: 0;">
-		      				<input type="radio" name="optradio" id="year1" />新加坡
-		    			</label>
-		    			<label class="radio-inline" style="padding-top: 0;">
-		      				<input type="radio" name="optradio" />台湾
-		    			</label>
-		    			<label class="radio-inline" style="padding-top: 0;">
-		      				<input type="radio" name="optradio" />香港
-		    			</label>
-		    			<label class="radio-inline" style="padding-top: 0;">
-		      				<input type="radio" name="optradio" />中国
-		    			</label>
-		    			<label class="radio-inline" style="padding-top: 0;">
-		      				<input type="radio" name="optradio" />其他
-		    			</label>
-		    			<input type="text" class="form-control-inline" id="nationality-other"／>
+	    			<div class="col-sm-12">
+	    				<div class="panel panel-default">
+	    					<div class="panel-heading">
+		  						<label class="radio-label-left">您出生的国家或地区：</label>
+		  					</div>
+		  					<div class="panel-body">
+	  							<fieldset id="origin-country">
+					    			<label class="radio-inline" style="padding-top: 0;">
+					      				<input type="radio" name="cou-orig" id="year1" />新加坡
+					    			</label>
+					    			<label class="radio-inline" style="padding-top: 0;">
+					      				<input type="radio" name="cou-orig" />台湾
+					    			</label>
+					    			<label class="radio-inline" style="padding-top: 0;">
+					      				<input type="radio" name="cou-orig" />香港
+					    			</label>
+					    			<label class="radio-inline" style="padding-top: 0;">
+					      				<input type="radio" name="cou-orig" />中国
+					    			</label>
+					    			<label class="radio-inline" style="padding-top: 0;">
+					      				<input type="radio" name="cou-orig" />其他
+					    			</label>
+					    			<input type="text" class="form-control-inline" name="cou-orig"／>
+					    		</fieldset>
+						    </div>
+						</div>
 	    			</div>
 	    		</div>
 
 	    		<div class="form-group">
-	    			<div class="col-xs-12">
-		  				<label for="school">您以前有没有在台湾以外的国家或地区长住过（5年以上）？
-		  					有的话，请列出该国家或地区及居住时长（几年）： 
-		  				</label>
-		    			<input type="text" class="form-control" id="school"／>
+	    			<div class="col-sm-12">
+	    				<div class="panel panel-default">
+	    					<div class="panel-heading">
+		  						<label class="radio-label-left">您以前有没有在台湾以外的国家或地区长住过（5年以上）？
+		  							有的话，请列出该国家或地区及居住时长（几年）： 
+		  						</label>
+		  					</div>
+		  					<div class="panel-body">
+		    					<input type="text" class="form-control" name="other-residence"／>
+		    				</div>
+		    			</div>
 		    		</div>
 	    		</div>
 
 	    		<div class="form-group">
-	    			<div class="col-xs-12">
-		  				<label class="radio-label-left">您最早在家里接触的语言／方言是：</label>
-		    			<label class="radio-inline" style="padding-top: 0;">
-		      				<input type="radio" name="optradio" id="year1" />普通话／国语／华语
-		    			</label>
-		    			<label class="radio-inline" style="padding-top: 0;">
-		      				<input type="radio" name="optradio" />英语
-		    			</label>
-		    			<label class="radio-inline" style="padding-top: 0;">
-		      				<input type="radio" name="optradio" />台语／闽南话
-		    			</label>
-		    			<label class="radio-inline" style="padding-top: 0;">
-		      				<input type="radio" name="optradio" />客家话
-		    			</label>
-		    			<label class="radio-inline" style="padding-top: 0;">
-		      				<input type="radio" name="optradio" />其他
-		    			</label>
-		    			<input type="text" class="form-control-inline" id="language-other"／>
+	    			<div class="col-sm-12">
+	    				<div class="panel panel-default">
+	    					<div class="panel-heading">
+		  						<label class="radio-label-left">您最早在家里接触的语言／方言是：</label>
+		  					</div>
+		  					<div class="panel-body">
+		  						<fieldset id="language-home">
+					    			<label class="radio-inline" style="padding-top: 0;">
+					      				<input type="radio" name="lang-home"/>普通话／国语／华语
+					    			</label>
+					    			<label class="radio-inline" style="padding-top: 0;">
+					      				<input type="radio" name="lang-home" />英语
+					    			</label>
+					    			<label class="radio-inline" style="padding-top: 0;">
+					      				<input type="radio" name="lang-home"/>台语／闽南话
+					    			</label>
+					    			<label class="radio-inline" style="padding-top: 0;">
+					      				<input type="radio" name="lang-home"/>客家话
+					    			</label>
+					    			<label class="radio-inline" style="padding-top: 0;">
+					      				<input type="radio" name="lang-home"/>其他
+					    			</label>
+					    			<input type="text" class="form-control-inline" id="language-other"／>
+					    		</fieldset>
+				    		</div>
+				    	</div>
 	    			</div>
 	    		</div>
 
 	    		<div class="form-group">
-	    			<div class="col-xs-12">
+	    			<div class="col-sm-12">
 	    				<div class="panel panel-default">
 	    					<div class="panel-heading">
 	    						<label class="radio-label-left">您会什么语言或方言，水平怎么样?
@@ -507,7 +555,10 @@
 								</div>
 
 								<div class="panel panel-default">
-	    							<div class="panel-heading"><input type="text" class="form-control-inline"／></div>
+	    							<div class="panel-heading">
+	    								<label class="control-label" style="font-weight: normal;">其他（请填写）</label>
+	    								<input type="text" class="form-control-inline"／>
+	    							</div>
 	  								<div class="panel-body">
 				  						<ul class="nav nav-tabs">
 					    					<li class="active"><a data-toggle="tab" href="#general-listening">听</a></li>
@@ -605,15 +656,17 @@
 	    		</div>
 
 	    		<!-- <div class="form-group hide" id="add-language-template">
-	    			<div class="col-xs-12">
+	    			<div class="col-sm-12">
 	    				
 					</div>
 	    		</div> -->
 
 	    		<div class="form-group">
-	    			<div class="col-xs-12">
+	    			<div class="col-sm-12">
 	    				<div class="panel panel-default">
-	    					<div class="panel-heading">您和下列对象交流的时候经常使用哪种语言或方言?</div>
+	    					<div class="panel-heading">
+	    						<label class="radio-label-left">您和下列对象交流的时候经常使用哪种语言或方言?</label>
+	    					</div>
 	  						<div class="panel-body">
 		  						<ul class="nav nav-tabs">
 			    					<li class="active"><a data-toggle="tab" href="#language-grand-pa">祖父母</a></li>
@@ -626,95 +679,99 @@
 			    				<div class="tab-content">
 			    					<div id="language-grand-pa" class="tab-pane fade in active">
 			    						<fieldset id="language-to-grand-pa">
-										    <label class="radio-inline" >
-			      								<input type="radio" name="lang-gra-pa"/>普通话／国语／华语
+										    <label class="checkbox-inline" style="padding-top: 0;">
+			      								<input type="checkbox" name="lang-gra-pa"/>普通话／国语／华语
 			    							</label>
-							    			<label class="radio-inline" >
-							      				<input type="radio" name="lang-gra-pa" />英语
+							    			<label class="checkbox-inline" style="padding-top: 0;">
+							      				<input type="checkbox" name="lang-gra-pa" />英语
 							    			</label>
-							    			<label class="radio-inline" >
-							      				<input type="radio" name="lang-gra-pa" />方言
+							    			<label class="checkbox-inline" style="padding-top: 0;">
+							      				<input type="checkbox" name="lang-gra-pa" />方言
 							    			</label>
-							    			<label class="radio-inline" >
-							      				<input type="radio" name="lang-gra-pa" />其他
-							    			</label>
-							    			<input type="text" class="form-control-inline" name="lang-gra-pa-other" id="language-other"／>
+							      			<input type="checkbox" name="lang-gra-pa" style="margin-left: 10px;" />
+							    			<label class="control-label" style="font-weight: normal; margin-left: 8px">其他</label>
+							    			<input type="text" class="form-control-inline" name="lang-gra-pa-other"／>
 						    			</fieldset>
 									</div>
 									<div id="language-pa-ma" class="tab-pane fade">
-									    <label class="radio-inline" >
-		      								<input type="radio" name="optradio"/>普通话／国语／华语
-		    							</label>
-						    			<label class="radio-inline" >
-						      				<input type="radio" name="optradio" />英语
-						    			</label>
-						    			<label class="radio-inline" >
-						      				<input type="radio" name="optradio" />方言
-						    			</label>
-						    			<label class="radio-inline" >
-						      				<input type="radio" name="optradio" />其他
-						    			</label>
-						    			<input type="text" class="form-control-inline" id="language-other"／>
+										<fieldset id="language-to-pa-ma">
+										    <label class="checkbox-inline" style="padding-top: 0;">
+			      								<input type="checkbox" name="lang-pa-ma"/>普通话／国语／华语
+			    							</label>
+							    			<label class="checkbox-inline" style="padding-top: 0;">
+							      				<input type="checkbox" name="lang-pa-ma" />英语
+							    			</label>
+							    			<label class="checkbox-inline" style="padding-top: 0;">
+							      				<input type="checkbox" name="lang-pa-ma" />方言
+							    			</label>
+							    			<input type="checkbox" name="lang-gra-pa" style="margin-left: 10px;" />
+							    			<label class="control-label" style="font-weight: normal; margin-left: 8px">其他</label>
+							    			<input type="text" class="form-control-inline" name="lang-pa-ma-other"／>
+						    			</fieldset>
 								  	</div>
 								  	<div id="language-bro-sis" class="tab-pane fade">
-									    <label class="radio-inline" >
-		      								<input type="radio" name="optradio"/>普通话／国语／华语
-		    							</label>
-						    			<label class="radio-inline" >
-						      				<input type="radio" name="optradio" />英语
-						    			</label>
-						    			<label class="radio-inline" >
-						      				<input type="radio" name="optradio" />方言
-						    			</label>
-						    			<label class="radio-inline" >
-						      				<input type="radio" name="optradio" />其他
-						    			</label>
-						    			<input type="text" class="form-control-inline" id="language-other"／>
+								  		<fieldset id="language-to-bro-sis">
+										    <label class="checkbox-inline" style="padding-top: 0;">
+			      								<input type="checkbox" name="lang-bro-sis"/>普通话／国语／华语
+			    							</label>
+							    			<label class="checkbox-inline" style="padding-top: 0;">
+							      				<input type="checkbox" name="lang-bro-sis" />英语
+							    			</label>
+							    			<label class="checkbox-inline" style="padding-top: 0;">
+							      				<input type="checkbox" name="lang-bro-sis" />方言
+							    			</label>
+							    			<input type="checkbox" name="lang-gra-pa" style="margin-left: 10px;" />
+							    			<label class="control-label" style="font-weight: normal; margin-left: 8px">其他</label>
+							    			<input type="text" class="form-control-inline" name="lang-bro-sis-other"／>
+						    			</fieldset>
 								  	</div>
 								  	<div id="language-classmate" class="tab-pane fade">
-									    <label class="radio-inline" >
-		      								<input type="radio" name="optradio"/>普通话／国语／华语
-		    							</label>
-						    			<label class="radio-inline" >
-						      				<input type="radio" name="optradio" />英语
-						    			</label>
-						    			<label class="radio-inline" >
-						      				<input type="radio" name="optradio" />方言
-						    			</label>
-						    			<label class="radio-inline" >
-						      				<input type="radio" name="optradio" />其他
-						    			</label>
-						    			<input type="text" class="form-control-inline" id="language-other"／>
+								  		<fieldset id="language-to-classmate">
+										    <label class="checkbox-inline" style="padding-top: 0;">
+			      								<input type="checkbox" name="lang-cla"/>普通话／国语／华语
+			    							</label>
+							    			<label class="checkbox-inline" style="padding-top: 0;">
+							      				<input type="checkbox" name="lang-cla" />英语
+							    			</label>
+							    			<label class="checkbox-inline" style="padding-top: 0;">
+							      				<input type="checkbox" name="lang-cla" />方言
+							    			</label>
+							    			<input type="checkbox" name="lang-gra-pa" style="margin-left: 10px;" />
+							    			<label class="control-label" style="font-weight: normal; margin-left: 8px">其他</label>
+							    			<input type="text" class="form-control-inline" name="lang-cla-other"／>
+						    			</fieldset>
 								  	</div>
 								  	<div id="language-friend" class="tab-pane fade">
-									    <label class="radio-inline" >
-		      								<input type="radio" name="optradio"/>普通话／国语／华语
-		    							</label>
-						    			<label class="radio-inline" >
-						      				<input type="radio" name="optradio" />英语
-						    			</label>
-						    			<label class="radio-inline" >
-						      				<input type="radio" name="optradio" />方言
-						    			</label>
-						    			<label class="radio-inline" >
-						      				<input type="radio" name="optradio" />其他
-						    			</label>
-						    			<input type="text" class="form-control-inline" id="language-other"／>
+								  		<fieldset id="language-to-friend">
+										    <label class="checkbox-inline" style="padding-top: 0;">
+			      								<input type="checkbox" name="lang-fri"/>普通话／国语／华语
+			    							</label>
+							    			<label class="checkbox-inline" style="padding-top: 0;">
+							      				<input type="checkbox" name="lang-fri" />英语
+							    			</label>
+							    			<label class="checkbox-inline" style="padding-top: 0;">
+							      				<input type="checkbox" name="lang-fri" />方言
+							    			</label>
+							    			<input type="checkbox" name="lang-gra-pa" style="margin-left: 10px;" />
+							    			<label class="control-label" style="font-weight: normal; margin-left: 8px">其他</label>
+							    			<input type="text" class="form-control-inline" name="lang-fri-other"／>
+						    			</fieldset>
 								  	</div>
 								  	<div id="language-stranger" class="tab-pane fade">
-									    <label class="radio-inline" >
-		      								<input type="radio" name="optradio"/>普通话／国语／华语
-		    							</label>
-						    			<label class="radio-inline" >
-						      				<input type="radio" name="optradio" />英语
-						    			</label>
-						    			<label class="radio-inline" >
-						      				<input type="radio" name="optradio" />方言
-						    			</label>
-						    			<label class="radio-inline" >
-						      				<input type="radio" name="optradio" />其他
-						    			</label>
-						    			<input type="text" class="form-control-inline" id="language-other"／>
+								  		<fieldset id="language-to-stranger">
+										    <label class="checkbox-inline" style="padding-top: 0;">
+			      								<input type="checkbox" name="lang-str"/>普通话／国语／华语
+			    							</label>
+							    			<label class="checkbox-inline" style="padding-top: 0;">
+							      				<input type="checkbox" name="lang-str" />英语
+							    			</label>
+							    			<label class="checkbox-inline" style="padding-top: 0;">
+							      				<input type="checkbox" name="lang-str" />方言
+							    			</label>
+							    			<input type="checkbox" name="lang-gra-pa" style="margin-left: 10px;" />
+							    			<label class="control-label" style="font-weight: normal; margin-left: 8px">其他</label>
+							    			<input type="text" class="form-control-inline" name="lang-str-other"／>
+						    			</fieldset>
 								  	</div>
 								</div>
 	    					</div>
@@ -723,9 +780,11 @@
 	    		</div>
 
 	    		<div class="form-group">
-	    			<div class="col-xs-12">
+	    			<div class="col-sm-12">
 	    				<div class="panel panel-default">
-	    					<div class="panel-heading">您在下列各项活动中更常使用国语, 英语, 还是两者都经常使用？</div>
+	    					<div class="panel-heading">
+	    						<label class="radio-label-left">您在下列各项活动中更常使用国语, 英语, 还是两者都经常使用？</label>
+	    					</div>
 	  						<div class="panel-body">
 		  						<ul class="nav nav-tabs">
 			    					<li class="active"><a data-toggle="tab" href="#newspaper">阅读报纸</a></li>
@@ -737,110 +796,97 @@
 								</ul>
 			    				<div class="tab-content">
 			    					<div id="newspaper" class="tab-pane fade in active">
-									    <label class="radio-inline" >
-		      								<input type="radio" name="optradio"/>更常使用国语
-		    							</label>
-						    			<label class="radio-inline">
-						      				<input type="radio" name="optradio" />两者都经常使用
-						    			</label>
-						    			<label class="radio-inline">
-						      				<input type="radio" name="optradio" />更常使用英语
-						    			</label>
+			    						<fieldset id="language-newspaper">
+										    <label class="radio-inline" >
+			      								<input type="radio" name="lang-news"/>更常使用国语
+			    							</label>
+							    			<label class="radio-inline">
+							      				<input type="radio" name="lang-news" />两者都经常使用
+							    			</label>
+							    			<label class="radio-inline">
+							      				<input type="radio" name="lang-news" />更常使用英语
+							    			</label>
+						    			</fieldset>
 									</div>
 									<div id="magazine" class="tab-pane fade">
-									    <div id="grand-pa" class="tab-pane fade in active">
+								    	<fieldset id="language-magazine">
 										    <label class="radio-inline" >
-			      								<input type="radio" name="optradio"/>更常使用国语
+			      								<input type="radio" name="lang-maga"/>更常使用国语
 			    							</label>
 							    			<label class="radio-inline">
-							      				<input type="radio" name="optradio" />两者都经常使用
+							      				<input type="radio" name="lang-maga" />两者都经常使用
 							    			</label>
 							    			<label class="radio-inline">
-							      				<input type="radio" name="optradio" />更常使用英语
+							      				<input type="radio" name="lang-maga" />更常使用英语
 							    			</label>
-							    		</div>
+						    			</fieldset>
 									</div>
 								  	<div id="tv" class="tab-pane fade">
-									    <div id="grand-pa" class="tab-pane fade in active">
-										    <label class="radio-inline" >
-			      								<input type="radio" name="optradio"/>更常使用国语
+									 	<fieldset id="language-tv">
+										    <label class="radio-inline">
+			      								<input type="radio" name="lang-tv"/>更常使用国语
 			    							</label>
 							    			<label class="radio-inline">
-							      				<input type="radio" name="optradio" />两者都经常使用
+							      				<input type="radio" name="lang-tv" />两者都经常使用
 							    			</label>
 							    			<label class="radio-inline">
-							      				<input type="radio" name="optradio" />更常使用英语
+							      				<input type="radio" name="lang-tv" />更常使用英语
 							    			</label>
-							    		</div>
+							    		</fieldset>
 									</div>
 								  	<div id="radio" class="tab-pane fade">
-									    <div id="grand-pa" class="tab-pane fade in active">
+								  		<fieldset id="language-radio">
 										    <label class="radio-inline" >
-			      								<input type="radio" name="optradio"/>更常使用国语
+			      								<input type="radio" name="lang-rad"/>更常使用国语
 			    							</label>
 							    			<label class="radio-inline">
-							      				<input type="radio" name="optradio" />两者都经常使用
+							      				<input type="radio" name="lang-rad" />两者都经常使用
 							    			</label>
 							    			<label class="radio-inline">
-							      				<input type="radio" name="optradio" />更常使用英语
+							      				<input type="radio" name="lang-rad" />更常使用英语
 							    			</label>
-							    		</div>
+							    		</fieldset>
 									</div>
 								  	<div id="letter" class="tab-pane fade">
-									    <div id="grand-pa" class="tab-pane fade in active">
+									    <fieldset id="language-let">
 										    <label class="radio-inline" >
-			      								<input type="radio" name="optradio"/>更常使用国语
+			      								<input type="radio" name="lang-let"/>更常使用国语
 			    							</label>
 							    			<label class="radio-inline">
-							      				<input type="radio" name="optradio" />两者都经常使用
+							      				<input type="radio" name="lang-let" />两者都经常使用
 							    			</label>
 							    			<label class="radio-inline">
-							      				<input type="radio" name="optradio" />更常使用英语
+							      				<input type="radio" name="lang-let" />更常使用英语
 							    			</label>
-							    		</div>
+							    		</fieldset>
 									</div>
 								  	<div id="internet" class="tab-pane fade">
-									   <div id="grand-pa" class="tab-pane fade in active">
+									   <fieldset id="language-internet">
 										    <label class="radio-inline">
-			      								<input type="radio" name="optradio"/>更常使用国语
+			      								<input type="radio" name="lang-int"/>更常使用国语
 			    							</label>
 							    			<label class="radio-inline">
-							      				<input type="radio" name="optradio" />两者都经常使用
+							      				<input type="radio" name="lang-int" />两者都经常使用
 							    			</label>
 							    			<label class="radio-inline">
-							      				<input type="radio" name="optradio" />更常使用英语
+							      				<input type="radio" name="lang-int" />更常使用英语
 							    			</label>
-							    		</div>
+							    		</fieldset>
 									</div>
 								</div>
 	    					</div>
 						</div>
 					</div>
 	    		</div>
+	    		<!-- <div class="col-xs-4"> -->
+	    			<button type="submit" value="Submit" class="btn btn-primary pull-right" id="submit" >Submit</button>
+	    		<!-- </div> -->
 	    	</form>
+	    	</div>
     	</div>
-  <!-- </div>
-  <div class="form-group">
-    <label class="control-label col-sm-2" for="pwd">Password:</label>
-    <div class="col-sm-10"> 
-      <input type="password" class="form-control" id="pwd" placeholder="Enter password">
-    </div>
-  </div>
-  <div class="form-group"> 
-    <div class="col-sm-offset-2 col-sm-10">
-      <div class="checkbox">
-        <label><input type="checkbox"> Remember me</label>
-      </div>
-    </div>
-  </div>
-  <div class="form-group"> 
-    <div class="col-sm-offset-2 col-sm-10">
-      <button type="submit" class="btn btn-default">Submit</button>
-    </div>
-  </div>
-</form> -->
-
-
+    	<footer>
+	        <p>&copy; 2016 Wei Yumou. Built with Bootstrap v3.3.7.</p>
+      	</footer>
     </div> <!-- /container -->
 
 
