@@ -41,7 +41,7 @@
 
       	<div class="row">
       		<div class="col-sm-12">
-	      	<form class="form-horizontal" action="#">
+	      	<form class="form-horizontal">
 	  			<div class="form-group">
 	  				<div class="col-sm-12">
 	  					<div class="panel panel-default">
@@ -51,10 +51,10 @@
 		  					<div class="panel-body">
 		  						<fieldset id="your-sex">
 					    			<label class="radio-inline" style="padding-top: 0;">
-					      				<input type="radio" name="sex" />男
+					      				<input type="radio" name="sex" value="男" />男
 					    			</label>
 					    			<label class="radio-inline" style="padding-top: 0;">
-					      				<input type="radio" name="sex" />女
+					      				<input type="radio" name="sex" value="女" />女
 					    			</label>
 				    			</fieldset>
 				    		</div>
@@ -71,13 +71,13 @@
 		  					<div class="panel-body">
 		  						<fieldset id="your-age">
 					    			<label class="radio-inline" style="padding-top: 0;">
-					      				<input type="radio" name="age" />小于17岁
+					      				<input type="radio" name="age" value="小于17岁" />小于17岁
 					    			</label>
 					    			<label class="radio-inline" style="padding-top: 0;">
-					      				<input type="radio" name="age" />18-20岁
+					      				<input type="radio" name="age" value="18-20岁" />18-20岁
 					    			</label>
 					    			<label class="radio-inline" style="padding-top: 0;">
-					      				<input type="radio" name="age" />21岁以上
+					      				<input type="radio" name="age" value="21岁以上" />21岁以上
 					    			</label>
 				    			</fieldset>
 				    		</div>
@@ -118,23 +118,23 @@
 		  						<label class="radio-label-left">您出生的国家或地区：</label>
 		  					</div>
 		  					<div class="panel-body">
-	  							<fieldset id="origin-country">
+	  							<fieldset id="country-origin">
 					    			<label class="radio-inline" style="padding-top: 0;">
-					      				<input type="radio" name="cou-orig" id="year1" />新加坡
+					      				<input type="radio" name="origin" id="year1" value="新加坡" />新加坡
 					    			</label>
 					    			<label class="radio-inline" style="padding-top: 0;">
-					      				<input type="radio" name="cou-orig" />台湾
+					      				<input type="radio" name="origin" value="台湾" />台湾
 					    			</label>
 					    			<label class="radio-inline" style="padding-top: 0;">
-					      				<input type="radio" name="cou-orig" />香港
+					      				<input type="radio" name="origin" value="香港" />香港
 					    			</label>
 					    			<label class="radio-inline" style="padding-top: 0;">
-					      				<input type="radio" name="cou-orig" />中国
+					      				<input type="radio" name="origin" value="中国" />中国
 					    			</label>
 					    			<label class="radio-inline" style="padding-top: 0;">
-					      				<input type="radio" name="cou-orig" />其他
+					      				<input type="radio" name="origin" value="其他" />其他
 					    			</label>
-					    			<input type="text" class="form-control-inline" name="cou-orig"／>
+					    			<input type="text" class="form-control-inline" name="origin-other"／>
 					    		</fieldset>
 						    </div>
 						</div>
@@ -165,21 +165,21 @@
 		  					<div class="panel-body">
 		  						<fieldset id="language-home">
 					    			<label class="radio-inline" style="padding-top: 0;">
-					      				<input type="radio" name="lang-home"/>普通话／国语／华语
+					      				<input type="radio" name="lang-home" value="普通话／国语／华语" />普通话／国语／华语
 					    			</label>
 					    			<label class="radio-inline" style="padding-top: 0;">
-					      				<input type="radio" name="lang-home" />英语
+					      				<input type="radio" name="lang-home" value="英语" />英语
 					    			</label>
 					    			<label class="radio-inline" style="padding-top: 0;">
-					      				<input type="radio" name="lang-home"/>台语／闽南话
+					      				<input type="radio" name="lang-home" value="台语／闽南话" />台语／闽南话
 					    			</label>
 					    			<label class="radio-inline" style="padding-top: 0;">
-					      				<input type="radio" name="lang-home"/>客家话
+					      				<input type="radio" name="lang-home" value="客家话" />客家话
 					    			</label>
 					    			<label class="radio-inline" style="padding-top: 0;">
-					      				<input type="radio" name="lang-home"/>其他
+					      				<input type="radio" name="lang-home" value="其他" />其他
 					    			</label>
-					    			<input type="text" class="form-control-inline" id="language-other"／>
+					    			<input type="text" class="form-control-inline" name="lang-home-other"／>
 					    		</fieldset>
 				    		</div>
 				    	</div>
@@ -207,76 +207,76 @@
 					    					<div id="chinese-listening" class="tab-pane fade in active">
 					    						<fieldset id="chinese-listening-proficiency">
 												    <label class="radio-inline" >
-					      								<input type="radio" name="chi-lis-pro"/>完全不会
+					      								<input type="radio" name="chi-lis-pro" value="完全不会" />完全不会
 					    							</label>
 									    			<label class="radio-inline" >
-									      				<input type="radio" name="chi-lis-pro" />会一点儿(比如一些词和简单的句子)
+									      				<input type="radio" name="chi-lis-pro" value="会一点儿" />会一点儿(比如一些词和简单的句子)
 									    			</label>
 									    			<label class="radio-inline" >
-									      				<input type="radio" name="chi-lis-pro" />会一些(如日常对话或表达简单的想法)
+									      				<input type="radio" name="chi-lis-pro" value="会一些" />会一些(如日常对话或表达简单的想法)
 									    			</label>
 									    			<label class="radio-inline" >
-									      				<input type="radio" name="chi-lis-pro" />较高水平 (接近母语，能顺畅表达想法)
+									      				<input type="radio" name="chi-lis-pro" value="较高水平" />较高水平 (接近母语，能顺畅表达想法)
 									    			</label>
 									    			<label class="radio-inline" >
-									      				<input type="radio" name="chi-lis-pro" />母语水平
+									      				<input type="radio" name="chi-lis-pro" value="母语水平" />母语水平
 									    			</label>
 								    			</fieldset>
 											</div>
 											<div id="chinese-speaking" class="tab-pane fade">
 												<fieldset id="chinese-speaking-proficiency">
 												    <label class="radio-inline" >
-					      								<input type="radio" name="chi-spe-pro"/>完全不会
+					      								<input type="radio" name="chi-spe-pro" value="完全不会" />完全不会
 					    							</label>
 									    			<label class="radio-inline" >
-									      				<input type="radio" name="chi-spe-pro" />会一点儿(比如一些词和简单的句子)
+									      				<input type="radio" name="chi-spe-pro" value="会一点儿"/>会一点儿(比如一些词和简单的句子)
 									    			</label>
 									    			<label class="radio-inline" >
-									      				<input type="radio" name="chi-spe-pro" />会一些(如日常对话或表达简单的想法)
+									      				<input type="radio" name="chi-spe-pro" value="会一些"/>会一些(如日常对话或表达简单的想法)
 									    			</label>
 									    			<label class="radio-inline" >
-									      				<input type="radio" name="chi-spe-pro" />较高水平 (接近母语，能顺畅表达想法)
+									      				<input type="radio" name="chi-spe-pro" value="较高水平"/>较高水平 (接近母语，能顺畅表达想法)
 									    			</label>
 									    			<label class="radio-inline" >
-									      				<input type="radio" name="chi-spe-pro" />母语水平
+									      				<input type="radio" name="chi-spe-pro" value="母语水平"/>母语水平
 									    			</label>
 									    		</fieldset>
 										  	</div>
 										  	<div id="chinese-reading" class="tab-pane fade">
 										  		<fieldset id="chinese-reading-proficiency">
 												    <label class="radio-inline" >
-					      								<input type="radio" name="chi-rea-pro"/>完全不会
+					      								<input type="radio" name="chi-rea-pro" value="完全不会"/>完全不会
 					    							</label>
 									    			<label class="radio-inline" >
-									      				<input type="radio" name="chi-rea-pro" />会一点儿(比如一些词和简单的句子)
+									      				<input type="radio" name="chi-rea-pro" value="会一点儿" />会一点儿(比如一些词和简单的句子)
 									    			</label>
 									    			<label class="radio-inline" >
-									      				<input type="radio" name="chi-rea-pro" />会一些(如日常对话或表达简单的想法)
+									      				<input type="radio" name="chi-rea-pro" value="会一些"/>会一些(如日常对话或表达简单的想法)
 									    			</label>
 									    			<label class="radio-inline" >
-									      				<input type="radio" name="chi-rea-pro" />较高水平 (接近母语，能顺畅表达想法)
+									      				<input type="radio" name="chi-rea-pro" value="较高水平"/>较高水平 (接近母语，能顺畅表达想法)
 									    			</label>
 									    			<label class="radio-inline" >
-									      				<input type="radio" name="chi-rea-pro" />母语水平
+									      				<input type="radio" name="chi-rea-pro" value="母语水平"/>母语水平
 									    			</label>
 									    		</fieldset>
 										  	</div>
 										  	<div id="chinese-writing" class="tab-pane fade">
 										  		<fieldset id="chinese-writing-proficiency">
 												    <label class="radio-inline" >
-					      								<input type="radio" name="chi-wri-pro"/>完全不会
+					      								<input type="radio" name="chi-wri-pro" value="完全不会"/>完全不会
 					    							</label>
 									    			<label class="radio-inline" >
-									      				<input type="radio" name="chi-wri-pro" />会一点儿(比如一些词和简单的句子)
+									      				<input type="radio" name="chi-wri-pro" value="会一点儿"/>会一点儿(比如一些词和简单的句子)
 									    			</label>
 									    			<label class="radio-inline" >
-									      				<input type="radio" name="chi-wri-pro" />会一些(如日常对话或表达简单的想法)
+									      				<input type="radio" name="chi-wri-pro" value="会一些"/>会一些(如日常对话或表达简单的想法)
 									    			</label>
 									    			<label class="radio-inline" >
-									      				<input type="radio" name="chi-wri-pro" />较高水平 (接近母语，能顺畅表达想法)
+									      				<input type="radio" name="chi-wri-pro" value="较高水平"/>较高水平 (接近母语，能顺畅表达想法)
 									    			</label>
 									    			<label class="radio-inline" >
-									      				<input type="radio" name="chi-wri-pro" />母语水平
+									      				<input type="radio" name="chi-wri-pro" value="母语水平"/>母语水平
 									    			</label>
 									    		</fieldset>
 										  	</div>
@@ -297,76 +297,76 @@
 					    					<div id="english-listening" class="tab-pane fade in active">
 					    						<fieldset id="english-listening-proficiency">
 												    <label class="radio-inline" >
-					      								<input type="radio" name="eng-lis-pro"/>完全不会
+					      								<input type="radio" name="eng-lis-pro" value="完全不会"/>完全不会
 					    							</label>
 									    			<label class="radio-inline" >
-									      				<input type="radio" name="eng-lis-pro" />会一点儿(比如一些词和简单的句子)
+									      				<input type="radio" name="eng-lis-pro" value="会一点儿"/>会一点儿(比如一些词和简单的句子)
 									    			</label>
 									    			<label class="radio-inline" >
-									      				<input type="radio" name="eng-lis-pro" />会一些(如日常对话或表达简单的想法)
+									      				<input type="radio" name="eng-lis-pro" value="会一些"/>会一些(如日常对话或表达简单的想法)
 									    			</label>
 									    			<label class="radio-inline" >
-									      				<input type="radio" name="eng-lis-pro" />较高水平 (接近母语，能顺畅表达想法)
+									      				<input type="radio" name="eng-lis-pro" value="较高水平"/>较高水平 (接近母语，能顺畅表达想法)
 									    			</label>
 									    			<label class="radio-inline" >
-									      				<input type="radio" name="eng-lis-pro" />母语水平
+									      				<input type="radio" name="eng-lis-pro" value="母语水平"/>母语水平
 									    			</label>
 									    		</fieldset>
 											</div>
 											<div id="english-speaking" class="tab-pane fade">
 												<fieldset id="english-speaking-proficiency">
 												    <label class="radio-inline" >
-					      								<input type="radio" name="eng-spe-pro"/>完全不会
+					      								<input type="radio" name="eng-spe-pro" value="完全不会"/>完全不会
 					    							</label>
 									    			<label class="radio-inline" >
-									      				<input type="radio" name="eng-spe-pro" />会一点儿(比如一些词和简单的句子)
+									      				<input type="radio" name="eng-spe-pro" value="会一点儿"/>会一点儿(比如一些词和简单的句子)
 									    			</label>
 									    			<label class="radio-inline" >
-									      				<input type="radio" name="eng-spe-pro" />会一些(如日常对话或表达简单的想法)
+									      				<input type="radio" name="eng-spe-pro" value="会一些"/>会一些(如日常对话或表达简单的想法)
 									    			</label>
 									    			<label class="radio-inline" >
-									      				<input type="radio" name="eng-spe-pro" />较高水平 (接近母语，能顺畅表达想法)
+									      				<input type="radio" name="eng-spe-pro" value="较高水平"/>较高水平 (接近母语，能顺畅表达想法)
 									    			</label>
 									    			<label class="radio-inline" >
-									      				<input type="radio" name="eng-spe-pro" />母语水平
+									      				<input type="radio" name="eng-spe-pro" value="母语水平"/>母语水平
 									    			</label>
 								    			</fieldset>
 										  	</div>
 										  	<div id="english-reading" class="tab-pane fade">
 										  		<fieldset id="english-reading-proficiency">
 												    <label class="radio-inline" >
-					      								<input type="radio" name="eng-rea-pro"/>完全不会
+					      								<input type="radio" name="eng-rea-pro" value="完全不会"/>完全不会
 					    							</label>
 									    			<label class="radio-inline" >
-									      				<input type="radio" name="eng-rea-pro" />会一点儿(比如一些词和简单的句子)
+									      				<input type="radio" name="eng-rea-pro" value="会一点儿"/>会一点儿(比如一些词和简单的句子)
 									    			</label>
 									    			<label class="radio-inline" >
-									      				<input type="radio" name="eng-rea-pro" />会一些(如日常对话或表达简单的想法)
+									      				<input type="radio" name="eng-rea-pro" value="会一些"/>会一些(如日常对话或表达简单的想法)
 									    			</label>
 									    			<label class="radio-inline" >
-									      				<input type="radio" name="eng-rea-pro" />较高水平 (接近母语，能顺畅表达想法)
+									      				<input type="radio" name="eng-rea-pro" value="较高水平"/>较高水平 (接近母语，能顺畅表达想法)
 									    			</label>
 									    			<label class="radio-inline" >
-									      				<input type="radio" name="eng-rea-pro" />母语水平
+									      				<input type="radio" name="eng-rea-pro" value="母语水平"/>母语水平
 									    			</label>
 								    			</fieldset>
 										  	</div>
 										  	<div id="english-writing" class="tab-pane fade">
 										  		<fieldset id="english-writing-proficiency">
 												    <label class="radio-inline" >
-					      								<input type="radio" name="eng-wri-pro"/>完全不会
+					      								<input type="radio" name="eng-wri-pro" value="完全不会"/>完全不会
 					    							</label>
 									    			<label class="radio-inline" >
-									      				<input type="radio" name="eng-wri-pro" />会一点儿(比如一些词和简单的句子)
+									      				<input type="radio" name="eng-wri-pro" value="会一点儿"/>会一点儿(比如一些词和简单的句子)
 									    			</label>
 									    			<label class="radio-inline" >
-									      				<input type="radio" name="eng-wri-pro" />会一些(如日常对话或表达简单的想法)
+									      				<input type="radio" name="eng-wri-pro" value="会一些"/>会一些(如日常对话或表达简单的想法)
 									    			</label>
 									    			<label class="radio-inline" >
-									      				<input type="radio" name="eng-wri-pro" />较高水平 (接近母语，能顺畅表达想法)
+									      				<input type="radio" name="eng-wri-pro" value="较高水平"/>较高水平 (接近母语，能顺畅表达想法)
 									    			</label>
 									    			<label class="radio-inline" >
-									      				<input type="radio" name="eng-wri-pro" />母语水平
+									      				<input type="radio" name="eng-wri-pro" value="母语水平"/>母语水平
 									    			</label>
 								    			</fieldset>
 										  	</div>
@@ -557,7 +557,7 @@
 								<div class="panel panel-default">
 	    							<div class="panel-heading">
 	    								<label class="control-label" style="font-weight: normal;">其他（请填写）</label>
-	    								<input type="text" class="form-control-inline"／>
+	    								<input type="text" class="form-control-inline" name="gen-lang-pro"／>
 	    							</div>
 	  								<div class="panel-body">
 				  						<ul class="nav nav-tabs">
@@ -647,9 +647,9 @@
 	    							</div>
 								</div>
 
-								<div class="panel panel-default" style="border: 1px dashed grey;">
+								<!-- <div class="panel panel-default" style="border: 1px dashed grey;">
 	    							<img class="img-responsive center-block" src="img/glyphicons-191-circle-plus.svg" alt="plus"/>
-	    						</div>
+	    						</div> -->
 							</div>
 	    				</div>
 	    			</div>
@@ -680,13 +680,13 @@
 			    					<div id="language-grand-pa" class="tab-pane fade in active">
 			    						<fieldset id="language-to-grand-pa">
 										    <label class="checkbox-inline" style="padding-top: 0;">
-			      								<input type="checkbox" name="lang-gra-pa"/>普通话／国语／华语
+			      								<input type="checkbox" name="lang-gra-pa-chi"/>普通话／国语／华语
 			    							</label>
 							    			<label class="checkbox-inline" style="padding-top: 0;">
-							      				<input type="checkbox" name="lang-gra-pa" />英语
+							      				<input type="checkbox" name="lang-gra-pa-eng" />英语
 							    			</label>
 							    			<label class="checkbox-inline" style="padding-top: 0;">
-							      				<input type="checkbox" name="lang-gra-pa" />方言
+							      				<input type="checkbox" name="lang-gra-pa-dia" />方言
 							    			</label>
 							      			<input type="checkbox" name="lang-gra-pa" style="margin-left: 10px;" />
 							    			<label class="control-label" style="font-weight: normal; margin-left: 8px">其他</label>
@@ -696,13 +696,13 @@
 									<div id="language-pa-ma" class="tab-pane fade">
 										<fieldset id="language-to-pa-ma">
 										    <label class="checkbox-inline" style="padding-top: 0;">
-			      								<input type="checkbox" name="lang-pa-ma"/>普通话／国语／华语
+			      								<input type="checkbox" name="lang-pa-ma-chi"/>普通话／国语／华语
 			    							</label>
 							    			<label class="checkbox-inline" style="padding-top: 0;">
-							      				<input type="checkbox" name="lang-pa-ma" />英语
+							      				<input type="checkbox" name="lang-pa-ma-eng" />英语
 							    			</label>
 							    			<label class="checkbox-inline" style="padding-top: 0;">
-							      				<input type="checkbox" name="lang-pa-ma" />方言
+							      				<input type="checkbox" name="lang-pa-ma-dia" />方言
 							    			</label>
 							    			<input type="checkbox" name="lang-gra-pa" style="margin-left: 10px;" />
 							    			<label class="control-label" style="font-weight: normal; margin-left: 8px">其他</label>
@@ -712,13 +712,13 @@
 								  	<div id="language-bro-sis" class="tab-pane fade">
 								  		<fieldset id="language-to-bro-sis">
 										    <label class="checkbox-inline" style="padding-top: 0;">
-			      								<input type="checkbox" name="lang-bro-sis"/>普通话／国语／华语
+			      								<input type="checkbox" name="lang-bro-sis-chi"/>普通话／国语／华语
 			    							</label>
 							    			<label class="checkbox-inline" style="padding-top: 0;">
-							      				<input type="checkbox" name="lang-bro-sis" />英语
+							      				<input type="checkbox" name="lang-bro-sis-eng" />英语
 							    			</label>
 							    			<label class="checkbox-inline" style="padding-top: 0;">
-							      				<input type="checkbox" name="lang-bro-sis" />方言
+							      				<input type="checkbox" name="lang-bro-sis-dia" />方言
 							    			</label>
 							    			<input type="checkbox" name="lang-gra-pa" style="margin-left: 10px;" />
 							    			<label class="control-label" style="font-weight: normal; margin-left: 8px">其他</label>
@@ -728,13 +728,13 @@
 								  	<div id="language-classmate" class="tab-pane fade">
 								  		<fieldset id="language-to-classmate">
 										    <label class="checkbox-inline" style="padding-top: 0;">
-			      								<input type="checkbox" name="lang-cla"/>普通话／国语／华语
+			      								<input type="checkbox" name="lang-cla-chi"/>普通话／国语／华语
 			    							</label>
 							    			<label class="checkbox-inline" style="padding-top: 0;">
-							      				<input type="checkbox" name="lang-cla" />英语
+							      				<input type="checkbox" name="lang-cla-eng" />英语
 							    			</label>
 							    			<label class="checkbox-inline" style="padding-top: 0;">
-							      				<input type="checkbox" name="lang-cla" />方言
+							      				<input type="checkbox" name="lang-cla-dia" />方言
 							    			</label>
 							    			<input type="checkbox" name="lang-gra-pa" style="margin-left: 10px;" />
 							    			<label class="control-label" style="font-weight: normal; margin-left: 8px">其他</label>
@@ -744,13 +744,13 @@
 								  	<div id="language-friend" class="tab-pane fade">
 								  		<fieldset id="language-to-friend">
 										    <label class="checkbox-inline" style="padding-top: 0;">
-			      								<input type="checkbox" name="lang-fri"/>普通话／国语／华语
+			      								<input type="checkbox" name="lang-fri-chi"/>普通话／国语／华语
 			    							</label>
 							    			<label class="checkbox-inline" style="padding-top: 0;">
-							      				<input type="checkbox" name="lang-fri" />英语
+							      				<input type="checkbox" name="lang-fri-eng" />英语
 							    			</label>
 							    			<label class="checkbox-inline" style="padding-top: 0;">
-							      				<input type="checkbox" name="lang-fri" />方言
+							      				<input type="checkbox" name="lang-fri-dia" />方言
 							    			</label>
 							    			<input type="checkbox" name="lang-gra-pa" style="margin-left: 10px;" />
 							    			<label class="control-label" style="font-weight: normal; margin-left: 8px">其他</label>
@@ -760,13 +760,13 @@
 								  	<div id="language-stranger" class="tab-pane fade">
 								  		<fieldset id="language-to-stranger">
 										    <label class="checkbox-inline" style="padding-top: 0;">
-			      								<input type="checkbox" name="lang-str"/>普通话／国语／华语
+			      								<input type="checkbox" name="lang-str-chi"/>普通话／国语／华语
 			    							</label>
 							    			<label class="checkbox-inline" style="padding-top: 0;">
-							      				<input type="checkbox" name="lang-str" />英语
+							      				<input type="checkbox" name="lang-str-eng" />英语
 							    			</label>
 							    			<label class="checkbox-inline" style="padding-top: 0;">
-							      				<input type="checkbox" name="lang-str" />方言
+							      				<input type="checkbox" name="lang-str-dia" />方言
 							    			</label>
 							    			<input type="checkbox" name="lang-gra-pa" style="margin-left: 10px;" />
 							    			<label class="control-label" style="font-weight: normal; margin-left: 8px">其他</label>
@@ -801,10 +801,10 @@
 			      								<input type="radio" name="lang-news"/>更常使用国语
 			    							</label>
 							    			<label class="radio-inline">
-							      				<input type="radio" name="lang-news" />两者都经常使用
+							      				<input type="radio" name="lang-news"/>两者都经常使用
 							    			</label>
 							    			<label class="radio-inline">
-							      				<input type="radio" name="lang-news" />更常使用英语
+							      				<input type="radio" name="lang-news"/>更常使用英语
 							    			</label>
 						    			</fieldset>
 									</div>
@@ -814,10 +814,10 @@
 			      								<input type="radio" name="lang-maga"/>更常使用国语
 			    							</label>
 							    			<label class="radio-inline">
-							      				<input type="radio" name="lang-maga" />两者都经常使用
+							      				<input type="radio" name="lang-maga"/>两者都经常使用
 							    			</label>
 							    			<label class="radio-inline">
-							      				<input type="radio" name="lang-maga" />更常使用英语
+							      				<input type="radio" name="lang-maga"/>更常使用英语
 							    			</label>
 						    			</fieldset>
 									</div>
@@ -827,10 +827,10 @@
 			      								<input type="radio" name="lang-tv"/>更常使用国语
 			    							</label>
 							    			<label class="radio-inline">
-							      				<input type="radio" name="lang-tv" />两者都经常使用
+							      				<input type="radio" name="lang-tv"/>两者都经常使用
 							    			</label>
 							    			<label class="radio-inline">
-							      				<input type="radio" name="lang-tv" />更常使用英语
+							      				<input type="radio" name="lang-tv"/>更常使用英语
 							    			</label>
 							    		</fieldset>
 									</div>
@@ -840,10 +840,10 @@
 			      								<input type="radio" name="lang-rad"/>更常使用国语
 			    							</label>
 							    			<label class="radio-inline">
-							      				<input type="radio" name="lang-rad" />两者都经常使用
+							      				<input type="radio" name="lang-rad"/>两者都经常使用
 							    			</label>
 							    			<label class="radio-inline">
-							      				<input type="radio" name="lang-rad" />更常使用英语
+							      				<input type="radio" name="lang-rad"/>更常使用英语
 							    			</label>
 							    		</fieldset>
 									</div>
@@ -853,10 +853,10 @@
 			      								<input type="radio" name="lang-let"/>更常使用国语
 			    							</label>
 							    			<label class="radio-inline">
-							      				<input type="radio" name="lang-let" />两者都经常使用
+							      				<input type="radio" name="lang-let"/>两者都经常使用
 							    			</label>
 							    			<label class="radio-inline">
-							      				<input type="radio" name="lang-let" />更常使用英语
+							      				<input type="radio" name="lang-let"/>更常使用英语
 							    			</label>
 							    		</fieldset>
 									</div>
@@ -866,10 +866,10 @@
 			      								<input type="radio" name="lang-int"/>更常使用国语
 			    							</label>
 							    			<label class="radio-inline">
-							      				<input type="radio" name="lang-int" />两者都经常使用
+							      				<input type="radio" name="lang-int"/>两者都经常使用
 							    			</label>
 							    			<label class="radio-inline">
-							      				<input type="radio" name="lang-int" />更常使用英语
+							      				<input type="radio" name="lang-int"/>更常使用英语
 							    			</label>
 							    		</fieldset>
 									</div>
@@ -878,10 +878,33 @@
 						</div>
 					</div>
 	    		</div>
-	    		<!-- <div class="col-xs-4"> -->
-	    			<button type="submit" value="Submit" class="btn btn-primary pull-right" id="submit" >Submit</button>
-	    		<!-- </div> -->
+	    		<button type="submit" class="btn btn-primary pull-right" id="submit">
+	    			Submit
+	    		</button>
 	    	</form>
+
+	    		<!-- Modal -->
+			<div id="result" class="modal fade" role="dialog">
+  				<div class="modal-dialog">
+    			<!-- Modal content-->
+    			<div class="modal-content">
+    				<div class="modal-header">
+		        		<button type="button" class="close" data-dismiss="modal">&times;</button>
+		        		<h4 class="modal-title">Your Submit Result</h4>
+		      	</div>
+		      	<div class="modal-body" >
+		      		<p id="res">abc
+		        	</p>
+		      		
+		      	</div>
+			    <div class="modal-footer">
+			        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			    </div>
+    </div>
+
+  </div>
+</div>
+
 	    	</div>
     	</div>
     	<footer>
@@ -896,5 +919,23 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<!-- <script src="js/custom.js"></script>
+	<script type="text/javascript">
+		function display_result(){
+			$('#res').text(JSON.stringify($('form').serializeArray()));
+			console.log(JSON.stringify($('form').serializeArray()));
+		}
+	</script> -->
+	<script>
+		$(document).ready(function(){
+		    $("#submit").click(function(){
+		    	$('#res').text(JSON.stringify($('form').serializeArray()));
+		        $("#result").modal();
+		        console.log(JSON.stringify($('form').serializeArray()));
+		    });
+		});
+	</script>
+
   </body>
 </html>
